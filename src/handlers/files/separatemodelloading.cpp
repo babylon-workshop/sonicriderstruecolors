@@ -227,7 +227,7 @@ std::bitset<MaxPlayerCount> IsSeparateBoardModelActive;
 [[nodiscard]] inline GearType GetGearTypeCSSExceptions(const Player &player, GearType gearType) {
     switch(player.extremeGear) {
         case ExtremeGear::GunGear:
-        case ExtremeGear::OllieKingGear:
+        case ExtremeGear::Airship:
             gearType = GearType::Board;
             break;
         default:

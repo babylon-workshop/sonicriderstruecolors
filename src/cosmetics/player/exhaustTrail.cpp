@@ -16,6 +16,7 @@
 #include "handlers/player/specialflagtweaks.hpp"
 #include "gears/advantagep.hpp"
 #include "gears/supermetal.hpp"
+#include "gears/airship.hpp"
 
 ASMDefined std::array<char, 4> bss_C24D91DC; /*asm*/
 
@@ -360,6 +361,15 @@ ASMUsed u32 Player_ExhaustTrailColors(Player &Player) {
     			const AdvantagePInfo &advpInfo = PlayerAdvantagePInfo[Player.index];
 				if (advpInfo.isInTopMode)
 				{color = 0xFF0000FF;}
+				break;
+			}
+
+			case Airship: {
+				AirshipInfo *AirshipInfo = &PlayerAirshipInfo[Player.index];
+
+				if (AirshipInfo->airdashCooldown != 0) {
+					color = 0xFF0000FF;
+				}
 				break;
 			}
 

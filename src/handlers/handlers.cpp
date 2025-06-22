@@ -53,6 +53,8 @@
 #include "gears/advantagep.hpp"
 #include "gears/gambler.hpp"
 
+#include "gears/airship.hpp"
+
 // ASMDefined void Player_Autopilot(Player *player); // _Main/text.s ; C240F4D8
 
 ASMUsed void PlayerHandler(Player &player) {
@@ -119,5 +121,7 @@ ASMUsed void PlayerHandler(Player &player) {
 	Player_SuperMetalIII(player);
 	Player_Darkness(player);
     Player_cancelAttackHack(player);
+
+    Player_Airship(player);
 	// Player_HandleSpeedShoes(player); // tap to speed shoe
 }

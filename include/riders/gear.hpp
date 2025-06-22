@@ -19,7 +19,7 @@ namespace ExtremeGear{
 		Gambler, PowerGear, OpaOpa, TheCrazy, Berserker, ERider, AirTank, HeavyBike, Destroyer, Omnipotence, CoverS, CoverF,
 		CoverP, HangOn, SuperHangOn, Darkness, Grinder, AdvantageS, AdvantageF, AdvantageP, Cannonball,
 
-		GunGear, OllieKingGear,
+		GunGear, Airship,
 
 		TotalGearAmount,
 		Invalid = 0xFF
