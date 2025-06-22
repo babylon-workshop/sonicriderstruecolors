@@ -10,6 +10,7 @@ ASMUsed SpecialFlags Player_NonLevelupGears(Player *player, SpecialFlags special
         player->extremeGear == ExtremeGear::CoverS ||
         player->extremeGear == ExtremeGear::CoverP ||
         player->extremeGear == ExtremeGear::GunGear ||
+        player->extremeGear == ExtremeGear::Greed ||
         exLoads == EXLoad::HyperSonic) {
 		specialFlags |= SpecialFlags::ringGear;
 	}

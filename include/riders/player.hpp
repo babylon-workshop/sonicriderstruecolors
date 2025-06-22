@@ -1324,6 +1324,8 @@ struct Player {
 				return 125;
 			case CoverP:
 				return 200;
+			case Greed:
+				return 200;
 			default:
 				break;
 		}

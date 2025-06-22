@@ -228,6 +228,7 @@ std::bitset<MaxPlayerCount> IsSeparateBoardModelActive;
     switch(player.extremeGear) {
         case ExtremeGear::GunGear:
         case ExtremeGear::Airship:
+        case ExtremeGear::Greed:
             gearType = GearType::Board;
             break;
         default:

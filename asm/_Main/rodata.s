@@ -26863,6 +26863,7 @@ CSS_GearPortraitID:
     .8byte 0x00B800B900BA00BB
     .2byte 0x00F5 # GunGear
     .2byte 0x00A0 # Airship
+    .2byte 0x00A0 # Greed
     .8byte 0x0086008700880089 # from here starts different default gear portraits
     .8byte 0x008A008B008C0108 # eggman is 108
     .8byte 0x008E008D00CE0086 # SS is 0086 to mimic blue star
@@ -26885,6 +26886,7 @@ CSS_GearTextTextureID:
     .8byte 0x0032003300340035
     .2byte 0x00F6 # GunGear
     .2byte 0x00F6 # Airship
+    .2byte 0x00F6 # Greed
     .8byte 0x0000000100020003 # from here starts different default gear texts
     .8byte 0x0004000500060109 # eggman is 0109
     .8byte 0x0008000700FB0000 # SS is 00 to mimic blue star
