@@ -198,6 +198,7 @@ set(DOL_SOURCES     # main
         src/handlers/player/ItemBox.cpp
         src/mechanics/speed_shoes.cpp
 		src/handlers/player/boundingbox.cpp
+		src/cosmetics/player/sybskin.cpp
 ) # main
 
 set(STANDALONE_HEADERS # This is only here to make sure that headers actually include the things it needs, by "compiling" them standalone.

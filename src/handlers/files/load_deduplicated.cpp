@@ -32,16 +32,18 @@ ASMUsed void LoadDeduplicatedStage() {
     LoadPackManFileGeneral(filename.c_str());
 
     // get specific stage's common file name, like "1CMN"
-    auto cmnStageFilename = std::format("{}CMN", CurrentStage);
+    u32 stage = CurrentStage;
+    auto cmnStageFilename = std::format("{}CMN", stage);
+    //auto cmnStageFilename = std::format("{}CMN", CurrentStage); // Old line, crashes the compiler with newer devkitpro.
 
     std::string stageFilename;
 
     // get stage file name ("1" or "1V" or "1M", or "M1" for mission mode)
     if (CurrentGameMode == MissionMode) {
-        stageFilename = std::format("M{}", CurrentStage);
+        stageFilename = std::format("M{}", stage);
     }
     else {
-        stageFilename = std::format("{}", CurrentStage);
+        stageFilename = std::format("{}", stage);
         if (playerCount > 2) {
             stageFilename += "M";
         }
