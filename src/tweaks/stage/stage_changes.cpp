@@ -277,4 +277,13 @@ ASMUsed void func_StageChanges(ObjectNode *currentObject) {
 		default:
 			break;
 	}
+
+	if (currentObject->item_id == ItemID::RNG && CurrentGameMode != TimeTrial) {
+		if (lbl_RNG_Number(2) == 0) {
+			lbl_update_item(currentObject, ItemID::TenRings);
+		}
+		else {
+			lbl_update_item(currentObject, ItemID::ThirtyAir);
+		}
+	}
 }
