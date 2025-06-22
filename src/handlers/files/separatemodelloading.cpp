@@ -7,6 +7,7 @@
 #include "filehandler_dat.hpp"
 #include "nn/ninjanext.hpp"
 #include "lib/files.hpp"
+#include "cosmetics/player/defaultgearrotation.hpp"
 
 #include <format>
 
@@ -35,7 +36,13 @@ std::bitset<MaxPlayerCount> IsSeparateBoardModelActive;
     std::string filename;// NOLINT(readability-magic-numbers,cppcoreguidelines-pro-type-member-init)
 
     if(player.extremeGear == ExtremeGear::Default) { // for default boards
-        const Character &character = Characters[player.character];
+        // const Character &character = Characters[player.character];
+        u16* playerDefaultID = &PlayerDefaultIDs[player.index];
+        if (!(player.isRealPlayer())) {
+            *playerDefaultID = player.character;
+        }
+        
+        const Character &character = Characters[*playerDefaultID];
 
         // default case
 		filename = std::format("P{}00", static_cast<char>(character.model));
