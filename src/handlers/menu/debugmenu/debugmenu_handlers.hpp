@@ -7,3 +7,4 @@ void DebugMenuHandler_DisableMusic();
 void DebugMenuHandler_InfiniteAir(Player &player);
 void DebugMenuHandler_InfiniteRings(Player &player);
 ASMUsed bool DebugMenuHandler_StageHazards();
+void DebugMenuHandler_EnableAllGears();

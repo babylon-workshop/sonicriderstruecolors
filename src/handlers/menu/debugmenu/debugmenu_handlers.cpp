@@ -1,5 +1,6 @@
 #include "debugmenu_handlers.hpp"
 #include "debugmenu.hpp"
+#include "riders/gear.hpp"
 
 constexpr auto MUTED_VOLUME = 0;
 constexpr auto DEFAULT_VOLUME = 0x4026;
@@ -781,6 +782,13 @@ ASMUsed bool DebugMenuHandler_AddAFriend() {
 	return (DebugMenu_CheckOption(DebugMenuOptions::AddAFriend));
 }
 
-ASMUsed bool DebugMenuHandler_EnableAllGears() {
-	return (DebugMenu_CheckOption(DebugMenuOptions::EnableAllGears));
+void DebugMenuHandler_EnableAllGears() {
+    const bool allGearsActive = DebugMenu_CheckOption(DebugMenuOptions::EnableAllGears);
+    if (allGearsActive) {
+        for (int currentGear = 0; currentGear < ExtremeGear::TotalGearAmount; currentGear++) {
+            if (currentGear != ExtremeGear::ChaosEmerald) {
+                Gears[currentGear].useFlags = 0xFFFFFFFF;
+            }
+        }
+    }
 }

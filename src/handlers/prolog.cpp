@@ -96,6 +96,7 @@ ASMUsed [[noreturn]] void _prolog() {
 		CustomCodehandler::InvokeInjectedCodes();
 		DebugMenuHandler_DisableMusic();
 		lbl_8021BB68 += 1;
+		DebugMenuHandler_EnableAllGears();
 	}
 }
 #pragma clang diagnostic pop
