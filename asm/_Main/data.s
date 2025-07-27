@@ -25911,7 +25911,7 @@ Gears:
     .4byte 0x02030000 # Exhaust mode (?) followed by amount of trails during tricks
     .4byte 0xFFFFFFFF # Greed
     .byte 0x00 # gear type
-    .byte 0x1B # model id
+    .byte 0x24 # model id
     .2byte 0x012C # ring cost in gear shop
     .4byte 0x00000000 # unknown
     .4byte 0xB9CA4587 # acceleration
@@ -26032,7 +26032,7 @@ Gears:
     .4byte 0x02020000 # Exhaust mode (?) followed by amount of trails during tricks
     .4byte 0xFFFFFFFF # GShot
     .byte 0x00 # gear type
-    .byte 0x1A # model id
+    .byte 0x1B # model id
     .2byte 0x012C # ring cost in gear shop
     .4byte 0x00000000 # unknown
     .4byte 0x3A48CAC6 # acceleration
@@ -26153,7 +26153,7 @@ Gears:
     .4byte 0x02030000 # Exhaust mode (?) followed by amount of trails during tricks
     .4byte 0xFFFFFFFF # Wanted
     .byte 0x00 # gear type
-    .byte 0x1A # model id
+    .byte 0x1C # model id
     .2byte 0x012C # ring cost in gear shop
     .4byte 0x00000000 # unknown
     .4byte 0xB9CA4587 # acceleration
@@ -26274,7 +26274,7 @@ Gears:
     .4byte 0x02020000 # Exhaust mode (?) followed by amount of trails during tricks
     .4byte 0xFFFFFFFF # Shooting Star
     .byte 0x00 # gear type
-    .byte 0x1A # model id
+    .byte 0x1D # model id
     .2byte 0x0000 # ring cost in gear shop
     .4byte 0x00000000 # unknown
     .4byte 0x3A48CAC6 # acceleration
@@ -26395,7 +26395,7 @@ Gears:
     .4byte 0x02010000 # Exhaust mode (?) followed by amount of trails during tricks
     .4byte 0xFFFFFFFF # Wind Star
     .byte 0x00 # gear type
-    .byte 0x1A # model id
+    .byte 0x1E # model id
     .2byte 0x0000 # ring cost in gear shop
     .4byte 0x00000000 # unknown
     .4byte 0x3A48CAC6 # acceleration
@@ -26516,7 +26516,7 @@ Gears:
     .4byte 0x02030000 # Exhaust mode (?) followed by amount of trails during tricks
     .4byte 0xFFFFFFFF # Road Star
     .byte 0x00 # gear type
-    .byte 0x1A # model id
+    .byte 0x1F # model id
     .2byte 0x0000 # ring cost in gear shop
     .4byte 0x00000000 # unknown
     .4byte 0x3A48CAC6 # acceleration
@@ -26637,7 +26637,7 @@ Gears:
     .4byte 0x02010000 # Exhaust mode (?) followed by amount of trails during tricks
     .4byte 0xFFFFFFFF # Archangel
     .byte 0x00 # gear type
-    .byte 0x1A # model id
+    .byte 0x20 # model id
     .2byte 0x0000 # ring cost in gear shop
     .4byte 0x00000000 # unknown
     .4byte 0x3A48CAC6 # acceleration
@@ -26758,7 +26758,7 @@ Gears:
     .4byte 0x02020000 # Exhaust mode (?) followed by amount of trails during tricks
     .4byte 0xFFFFFFFF # Reserve Tank
     .byte 0x02 # gear type
-    .byte 0x31 # model id
+    .byte 0x32 # model id
     .2byte 0x0000 # ring cost in gear shop
     .4byte 0x00000000 # unknown
     .4byte 0x3A48CAC6 # acceleration
@@ -26879,7 +26879,7 @@ Gears:
     .4byte 0x02010000
     .4byte 0xFFFFFFFF # Warp Drive
     .byte 0x00 # gear type
-    .byte 0x1A # model id
+    .byte 0x21 # model id
     .2byte 0x0000 # ring cost in gear shop
     .4byte 0x00000000 # unknown
     .4byte 0x3A48CAC6 # acceleration
@@ -27000,7 +27000,7 @@ Gears:
     .4byte 0x02020000 # Exhaust mode (?) followed by amount of trails during tricks
     .4byte 0xFFFFFFFF # Challenger
     .byte 0x00 # gear type
-    .byte 0x1A # model id
+    .byte 0x22 # model id
     .2byte 0x0000 # ring cost in gear shop
     .4byte 0x00000000 # unknown
     .4byte 0x3A48CAC6 # acceleration
@@ -27121,7 +27121,7 @@ Gears:
     .4byte 0x02030000 # Exhaust mode (?) followed by amount of trails during tricks
     .4byte 0xFFFFFFFF # G.U.N. Bike
     .byte 0x02 # gear type
-    .byte 0x31 # model id
+    .byte 0x33 # model id
     .2byte 0x0000 # ring cost in gear shop
     .4byte 0x00000000 # unknown
     .4byte 0x3A48CAC6 # acceleration
@@ -27242,7 +27242,7 @@ Gears:
     .4byte 0x02010000
     .4byte 0xFFF77F7F # Executor
     .byte 0x00 # gear type
-    .byte 0x1A # model id
+    .byte 0x23 # model id
     .2byte 0x012C # ring cost in gear shop
     .4byte 0x00000000 # unknown
     .4byte 0xB9CA4587 # acceleration
@@ -27363,7 +27363,7 @@ Gears:
     .4byte 0x02040000 # Exhaust mode (?) followed by amount of trails during tricks
     .4byte 0xFFFFFFFF # SkillLink
     .byte 0x00 # gear type
-    .byte 0x1A # model id
+    .byte 0x25 # model id
     .2byte 0x012C # ring cost in gear shop
     .4byte 0x00000000 # unknown
     .4byte 0xB9CA4587 # acceleration

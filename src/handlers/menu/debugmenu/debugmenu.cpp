@@ -26,6 +26,8 @@ constexpr auto PTRMODE_OPTIONCOUNT         = 2;
 constexpr auto VANILLAHAZARDS_OPTIONCOUNT  = 4;
 constexpr auto DISABLEATTACKS_OPTIONCOUNT  = 3;
 constexpr auto DISABLEFOG_OPTIONCOUNT      = 2;
+constexpr auto ADDAFRIEND_OPTIONCOUNT      = 2;
+constexpr auto ENABLEALLGEARS_OPTIONCOUNT      = 2;
 
 extern u32 lbl_001F1D80[];
 
@@ -51,25 +53,30 @@ std::array<u8, VANILLAHAZARDS_OPTIONCOUNT> DebugMenu_VanillaHazardsOptions =
         {DebugMenuOptions::VanillaHazardsOn, DebugMenuOptions::VanillaHazardsSkyRoadTurb, DebugMenuOptions::VanillaHazardsDigiHands, 0xFF};
 std::array<u8, DISABLEATTACKS_OPTIONCOUNT> DebugMenu_DisableAttacksOptions = {DebugMenuOptions::DisableAttacks, DebugMenuOptions::AttackInRun, 0xFF};
 std::array<u8, DISABLEFOG_OPTIONCOUNT> DebugMenu_DisableFogOptions         = {DebugMenuOptions::DisableFog, 0xFF};
+std::array<u8, ADDAFRIEND_OPTIONCOUNT> DebugMenu_AddAFriendOptions = {DebugMenuOptions::AddAFriend, 0xFF};
+std::array<u8, ENABLEALLGEARS_OPTIONCOUNT> DebugMenu_EnableAllGearsOptions = {DebugMenuOptions::EnableAllGears, 0xFF};
 
 Text2dFileData DebugMenu_TextData;
 DebugMenuData DebugMenu_Data = {
-        {DebugMenu_DisableMusicOptions,
-         DebugMenu_MagneticImpulseOptions,
-         DebugMenu_AutoPilotOptions,
-         DebugMenu_ExtremeDetachOptions,
-         DebugMenu_TornadoIgnoreOptions,
-         DebugMenu_TimerActivityOptions,
-         DebugMenu_DisableHUDOptions,
-         DebugMenu_InfiniteAirOptions,
-         DebugMenu_InfiniteRingsOptions,
-         DebugMenu_MaxMIOptions,
-         DebugMenu_MusicPlaylistOptions,
-         DebugMenu_ClutchHUDOptions,
-         DebugMenu_PTRModeOptions,
-         DebugMenu_VanillaHazardsOptions,
-         DebugMenu_DisableAttacksOptions,
-         DebugMenu_DisableFogOptions}};
+    {   DebugMenu_DisableMusicOptions,
+        DebugMenu_MagneticImpulseOptions,
+        DebugMenu_AutoPilotOptions,
+        DebugMenu_ExtremeDetachOptions,
+        DebugMenu_TornadoIgnoreOptions,
+        DebugMenu_TimerActivityOptions,
+        DebugMenu_DisableHUDOptions,
+        DebugMenu_InfiniteAirOptions,
+        DebugMenu_InfiniteRingsOptions,
+        DebugMenu_MaxMIOptions,
+        DebugMenu_MusicPlaylistOptions,
+        DebugMenu_ClutchHUDOptions,
+        DebugMenu_PTRModeOptions,
+        DebugMenu_VanillaHazardsOptions,
+        DebugMenu_DisableAttacksOptions,
+        DebugMenu_DisableFogOptions,
+        DebugMenu_AddAFriendOptions,
+        DebugMenu_EnableAllGearsOptions
+    }};
 
 bool DebugMenu_CheckOption(u32 option) {
     return (DebugMenu_Data.toggledPageOptions & 1 << option) != 0;

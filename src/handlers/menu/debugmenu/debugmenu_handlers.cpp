@@ -776,3 +776,11 @@ ASMUsed bool DebugMenuHandler_StageHazards() {
 	if (DebugMenu_CheckOption(DebugMenuOptions::VanillaHazardsDigiHands) && CurrentStage == DigitalDimension) return true; // This assumes we know we're on digi for this
 	return false; // Do not turn on hazards if no toggles are on
 }
+
+ASMUsed bool DebugMenuHandler_AddAFriend() {
+	return (DebugMenu_CheckOption(DebugMenuOptions::AddAFriend));
+}
+
+ASMUsed bool DebugMenuHandler_EnableAllGears() {
+	return (DebugMenu_CheckOption(DebugMenuOptions::EnableAllGears));
+}

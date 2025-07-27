@@ -1,0 +1,15 @@
+PB26 - Airship
+PB27 - G-Shot
+PB28 - Wanted
+PB29 - Shooting Star
+PB30 - Wind Star
+PB31 - Road Star
+PB32 - Angel/Devil
+PB33 - Warp Drive
+PB34 - Challenger
+PB35 - Executor
+PB36 - Greed
+PB37 - Skill Link
+
+PB50 - Reserve Tank
+PB51 - G.U.N. Bike

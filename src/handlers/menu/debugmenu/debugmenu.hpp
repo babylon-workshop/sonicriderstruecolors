@@ -30,7 +30,9 @@ namespace DebugMenuOptions {
         VanillaHazardsDigiHands,
         DisableAttacks,
         AttackInRun,
-        DisableFog
+        DisableFog,
+        AddAFriend,
+        EnableAllGears
     };
     constexpr auto PAGE1OPTIONCOUNT = 18;
     constexpr auto DefaultPage1Options =
