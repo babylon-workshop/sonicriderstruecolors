@@ -20827,7 +20827,7 @@ Gears:
     .4byte 0x3DA3D70A
     .4byte 0x00280100
     .4byte 0x02010000
-    .4byte 0xFFFFFFFF # High Booster
+    .4byte 0x00000000 # High Booster
     .byte 0x00 # gear type
     .byte 0x01 # model id
     .2byte 0x012C # ring cost in gear shop
@@ -20948,7 +20948,7 @@ Gears:
     .4byte 0x3DA3D70A
     .4byte 0x00280100
     .4byte 0x02010000
-    .4byte 0xFFFFFFFF # Auto Slider
+    .4byte 0x00000000 # Auto Slider
     .byte 0x00 # gear type
     .byte 0x02 # model id
     .2byte 0x0258 # ring cost in gear shop
@@ -21069,7 +21069,7 @@ Gears:
     .4byte 0x3DA3D70A
     .4byte 0x00280100
     .4byte 0x02010000
-    .4byte 0xFFFFFFFF # Powerful Gear
+    .4byte 0x00000000 # Powerful Gear
     .byte 0x00 # gear type
     .byte 0x03 # model id
     .2byte 0x0000 # ring cost in gear shop
@@ -21190,7 +21190,7 @@ Gears:
     .4byte 0x3DA3D70A
     .4byte 0x00280100
     .4byte 0x02010000
-    .4byte 0xFFFFFFFF # Fastest
+    .4byte 0x00000000 # Fastest
     .byte 0x00 # gear type
     .byte 0x04 # model id
     .2byte 0x0000 # ring cost in gear shop
@@ -21311,7 +21311,7 @@ Gears:
     .4byte 0x3DA3D70A
     .4byte 0x00280100
     .4byte 0x02010000
-    .4byte 0xFFFFFFFF # Turbo Star
+    .4byte 0x00000000 # Turbo Star
     .byte 0x00 # gear type
     .byte 0x05 # model id
     .2byte 0x0000 # ring cost in gear shop
@@ -21432,7 +21432,7 @@ Gears:
     .4byte 0x3DA3D70A
     .4byte 0x00280100
     .4byte 0x02010000
-    .4byte 0xFFFFFFFF # Speed Balancer
+    .4byte 0x00000000 # Speed Balancer
     .byte 0x00 # gear type
     .byte 0x06 # model id
     .2byte 0x05DC # ring cost in gear shop
@@ -21553,7 +21553,7 @@ Gears:
     .4byte 0x3DA3D70A
     .4byte 0x00280100
     .4byte 0x02010000
-    .4byte 0xFFFFFFFF # Blue Star II
+    .4byte 0x00000000 # Blue Star II
     .byte 0x00 # gear type
     .byte 0x07 # model id
     .2byte 0x0000 # ring cost in gear shop
@@ -21674,7 +21674,7 @@ Gears:
     .4byte 0x3DA3D70A
     .4byte 0x00280100
     .4byte 0x02020000
-    .4byte 0xFFF7FFFF # Access
+    .4byte 0x00000000 # Access
     .byte 0x00 # gear type
     .byte 0x08 # model id
     .2byte 0x05DC # ring cost in gear shop
@@ -21795,7 +21795,7 @@ Gears:
     .4byte 0x3DA3D70A
     .4byte 0x00280100
     .4byte 0x02010000
-    .4byte 0xFFFFFFFF # Beginner
+    .4byte 0x00000000 # Beginner
     .byte 0x00 # gear type
     .byte 0x09 # model id
     .2byte 0x012C # ring cost in gear shop
@@ -21916,7 +21916,7 @@ Gears:
     .4byte 0x3DA3D70A
     .4byte 0x00280100
     .4byte 0x02010000
-    .4byte 0xFFFFFFFF # Accelerator
+    .4byte 0x00000000 # Accelerator
     .byte 0x00 # gear type
     .byte 0x0A # model id
     .2byte 0x01F4 # ring cost in gear shop
@@ -22037,7 +22037,7 @@ Gears:
     .4byte 0x3DA3D70A
     .4byte 0x00280100
     .4byte 0x02010000
-    .4byte 0xFFFFFFFF # Trap Gear
+    .4byte 0x00000000 # Trap Gear
     .byte 0x00 # gear type
     .byte 0x0B # model id
     .2byte 0x09C4 # ring cost in gear shop
@@ -22158,7 +22158,7 @@ Gears:
     .4byte 0x3DA3D70A
     .4byte 0x00280100
     .4byte 0x02010000
-    .4byte 0xFFFFFFFF # Light Board
+    .4byte 0x00000000 # Light Board
     .byte 0x00 # gear type
     .byte 0x0C # model id
     .2byte 0x03E8 # ring cost in gear shop
@@ -22279,7 +22279,7 @@ Gears:
     .4byte 0x3DA3D70A
     .4byte 0x00280100
     .4byte 0x02010000
-    .4byte 0xFFFFFFFF # Slide Booster
+    .4byte 0x00000000 # Slide Booster
     .byte 0x00 # gear type
     .byte 0x0D # model id
     .2byte 0x07D0 # ring cost in gear shop
@@ -22400,7 +22400,7 @@ Gears:
     .4byte 0x3DA3D70A
     .4byte 0x00280100
     .4byte 0x02010000
-    .4byte 0xFFFFFFFF # Legend
+    .4byte 0x00000000 # Legend
     .byte 0x00 # gear type
     .byte 0x0E # model id
     .2byte 0x0000 # ring cost in gear shop
@@ -22521,7 +22521,7 @@ Gears:
     .4byte 0x3DA3D70A
     .4byte 0x00280100
     .4byte 0x02010000
-    .4byte 0xFFFFFFFF # Magic Carpet
+    .4byte 0x00000000 # Magic Carpet
     .byte 0x00 # gear type
     .byte 0x0F # model id
     .2byte 0x0000 # ring cost in gear shop
@@ -22642,7 +22642,7 @@ Gears:
     .4byte 0x3DA3D70A
     .4byte 0x00280100
     .4byte 0x02010000
-    .4byte 0xFFFFFFFF # Air Broom
+    .4byte 0x00000000 # Air Broom
     .byte 0x00 # gear type
     .byte 0x10 # model id
     .2byte 0x09C4 # ring cost in gear shop
@@ -22763,7 +22763,7 @@ Gears:
     .4byte 0x3DA3D70A
     .4byte 0x00280100
     .4byte 0x02010000
-    .4byte 0xFFFFFFFF # Hovercraft
+    .4byte 0x00000000 # Hovercraft
     .byte 0x00 # gear type
     .byte 0x11 # model id
     .2byte 0x05DC # ring cost in gear shop
@@ -22884,7 +22884,7 @@ Gears:
     .4byte 0x3DA3D70A
     .4byte 0x00280100
     .4byte 0x02010000
-    .4byte 0x00040407 # Chaos Emerald
+    .4byte 0x00000000 # Chaos Emerald
     .byte 0x00 # gear type
     .byte 0x12 # model id
     .2byte 0x0000 # ring cost in gear shop
@@ -23005,7 +23005,7 @@ Gears:
     .4byte 0x3DA3D70A
     .4byte 0x00280100
     .4byte 0x02010000
-    .4byte 0xFFFFFFFF # Faster
+    .4byte 0x00000000 # Faster
     .byte 0x00 # gear type
     .byte 0x13 # model id
     .2byte 0x0320 # ring cost in gear shop
@@ -23126,7 +23126,7 @@ Gears:
     .4byte 0x3DA3D70A
     .4byte 0x00280100
     .4byte 0x02010000
-    .4byte 0xFFFFFFFF # Gambler
+    .4byte 0x00000000 # Gambler
     .byte 0x00 # gear type
     .byte 0x14 # model id
     .2byte 0x0FA0 # ring cost in gear shop
@@ -23247,7 +23247,7 @@ Gears:
     .4byte 0x3DA3D70A
     .4byte 0x00280100
     .4byte 0x02010000
-    .4byte 0xFFFFFFFF # Power Gear
+    .4byte 0x00000000 # Power Gear
     .byte 0x00 # gear type
     .byte 0x15 # model id
     .2byte 0x01F4 # ring cost in gear shop
@@ -23368,7 +23368,7 @@ Gears:
     .4byte 0x3DA3D70A
     .4byte 0x00280100
     .4byte 0x02010000
-    .4byte 0xFFFFFFFF # Opa Opa
+    .4byte 0x00000000 # Opa Opa
     .byte 0x00 # gear type
     .byte 0x16 # model id
     .2byte 0x09C4 # ring cost in gear shop
@@ -23489,7 +23489,7 @@ Gears:
     .4byte 0x3DA3D70A
     .4byte 0x00280100
     .4byte 0x02020000
-    .4byte 0xFFFFFFFF # The Crazy
+    .4byte 0x00000000 # The Crazy
     .byte 0x00 # gear type
     .byte 0x17 # model id
     .2byte 0x07D0 # ring cost in gear shop
@@ -23610,7 +23610,7 @@ Gears:
     .4byte 0x3DA3D70A
     .4byte 0x00280100
     .4byte 0x02020000
-    .4byte 0xFFFFFFFF # Berserker
+    .4byte 0x00000000 # Berserker
     .byte 0x00 # gear type
     .byte 0x18 # model id
     .2byte 0x09C4 # ring cost in gear shop
@@ -23731,7 +23731,7 @@ Gears:
     .4byte 0x3DA3D70A
     .4byte 0x00280100
     .4byte 0x02020000
-    .4byte 0xFFFFFFFF # E-Rider
+    .4byte 0x00000000 # E-Rider
     .byte 0x02 # gear type
     .byte 0x28 # model id
     .2byte 0x0000 # ring cost in gear shop
@@ -23852,7 +23852,7 @@ Gears:
     .4byte 0x3DA3D70A
     .4byte 0x00280100
     .4byte 0x02010000
-    .4byte 0xFFFFFFFF # Air Tank
+    .4byte 0x00000000 # Air Tank
     .byte 0x02 # gear type
     .byte 0x29 # model id
     .2byte 0x03E8 # ring cost in gear shop
@@ -23973,7 +23973,7 @@ Gears:
     .4byte 0x3DA3D70A
     .4byte 0x00280100
     .4byte 0x02010000
-    .4byte 0xFFFFFFFF # Heavy Bike
+    .4byte 0x00000000 # Heavy Bike
     .byte 0x02 # gear type
     .byte 0x2A # model id
     .2byte 0x0320 # ring cost in gear shop
@@ -24094,7 +24094,7 @@ Gears:
     .4byte 0x3DA3D70A
     .4byte 0x00280100
     .4byte 0x02020000
-    .4byte 0xFFF7FFFF # Destroyer
+    .4byte 0x00000000 # Destroyer
     .byte 0x02 # gear type
     .byte 0x2B # model id
     .2byte 0x0DAC # ring cost in gear shop
@@ -24215,7 +24215,7 @@ Gears:
     .4byte 0x3DA3D70A
     .4byte 0x00280100
     .4byte 0x02010000
-    .4byte 0xFFF7FFFF # Omnipotence
+    .4byte 0x00000000 # Omnipotence
     .byte 0x02 # gear type
     .byte 0x2C # model id
     .2byte 0x1388 # ring cost in gear shop
@@ -24336,7 +24336,7 @@ Gears:
     .4byte 0x3DA3D70A
     .4byte 0x00280100
     .4byte 0x02010000
-    .4byte 0xFFF7FFFF # Cover-S
+    .4byte 0x00000000 # Cover-S
     .byte 0x02 # gear type
     .byte 0x2D # model id
     .2byte 0x01F4 # ring cost in gear shop
@@ -24457,7 +24457,7 @@ Gears:
     .4byte 0x3DA3D70A
     .4byte 0x00280100
     .4byte 0x02010000
-    .4byte 0xFFFFFFFF # Cover-F
+    .4byte 0x00000000 # Cover-F
     .byte 0x02 # gear type
     .byte 0x2E # model id
     .2byte 0x01F4 # ring cost in gear shop
@@ -24578,7 +24578,7 @@ Gears:
     .4byte 0x3DA3D70A
     .4byte 0x00280100
     .4byte 0x02010000
-    .4byte 0xFFFFFFFF # Cover-P
+    .4byte 0x00000000 # Cover-P
     .byte 0x02 # gear type
     .byte 0x2F # model id
     .2byte 0x01F4 # ring cost in gear shop
@@ -24699,7 +24699,7 @@ Gears:
     .4byte 0x3DA3D70A
     .4byte 0x00280100
     .4byte 0x02010000
-    .4byte 0xFFFFFFFF # Hang-On
+    .4byte 0x00000000 # Hang-On
     .byte 0x02 # gear type
     .byte 0x30 # model id
     .2byte 0x07D0 # ring cost in gear shop
@@ -24820,7 +24820,7 @@ Gears:
     .4byte 0x3DA3D70A
     .4byte 0x00280100
     .4byte 0x02010000
-    .4byte 0xFFFFFFFF # Super Hang-On
+    .4byte 0x00000000 # Super Hang-On
     .byte 0x02 # gear type
     .byte 0x31 # model id
     .2byte 0x09C4 # ring cost in gear shop
@@ -25062,7 +25062,7 @@ Gears:
     .4byte 0xBDA3D70A
     .4byte 0x00280100
     .4byte 0x02020000
-    .4byte 0xFFF7FFFF # Grinder
+    .4byte 0x00000000 # Grinder
     .byte 0x01 # gear type
     .byte 0x47 # model id
     .2byte 0x07D0 # ring cost in gear shop
@@ -25183,7 +25183,7 @@ Gears:
     .4byte 0xBDA3D70A
     .4byte 0x00280100
     .4byte 0x02020000
-    .4byte 0xFFFFFFFF # Advantage-S
+    .4byte 0x00000000 # Advantage-S
     .byte 0x01 # gear type
     .byte 0x48 # model id
     .2byte 0x03E8 # ring cost in gear shop
@@ -25304,7 +25304,7 @@ Gears:
     .4byte 0xBDA3D70A
     .4byte 0x00280100
     .4byte 0x02020000
-    .4byte 0xFFFFFFFF # Advantage-F
+    .4byte 0x00000000 # Advantage-F
     .byte 0x01 # gear type
     .byte 0x49 # model id
     .2byte 0x03E8 # ring cost in gear shop
@@ -25425,7 +25425,7 @@ Gears:
     .4byte 0xBDA3D70A
     .4byte 0x00280100
     .4byte 0x02020000
-    .4byte 0xFFFFFFFF # Advantage-P OG: 0xFFF7FFFF
+    .4byte 0x00000000 # Advantage-P OG: 0xFFF7FFFF
     .byte 0x01 # gear type
     .byte 0x4A # model id
     .2byte 0x03E8 # ring cost in gear shop
@@ -25667,7 +25667,7 @@ Gears:
     .4byte 0xBDA3D70A
     .4byte 0x00280100
     .4byte 0x02020000
-    .4byte 0xFFFFFFFF # GunGear
+    .4byte 0x00000000 # GunGear
     .byte 0x00 # gear type
     .byte 0x19 # model id
     .2byte 0x012C # ring cost in gear shop
@@ -26030,6 +26030,1458 @@ Gears:
     .4byte 0x3DA3D70A # Trail scale during tricks?
     .4byte 0x00280100
     .4byte 0x02020000 # Exhaust mode (?) followed by amount of trails during tricks
+    .4byte 0xFFFFFFFF # GShot
+    .byte 0x00 # gear type
+    .byte 0x1A # model id
+    .2byte 0x012C # ring cost in gear shop
+    .4byte 0x00000000 # unknown
+    .4byte 0x3A48CAC6 # acceleration
+    .4byte 0xbdd097b4 # top speed (additive)
+    .4byte 0xC1200000 # off road speed
+    .4byte 0x00000000 # speed and handling multiplier
+    .4byte 0x00000000 # weight
+    .4byte 0x00000000 # extra type attribute
+    .4byte 0x00000000 # speed loss by turning (?)
+    .4byte 0x00000000 # handling speed based? (also affects flight handling)
+    .4byte 0x00000000 # back axel handling (?)
+    .4byte 0x00000000 # front axel handling (?)
+    .4byte 0x00000000 # drifting radius
+    .4byte 0x00000000 # Drift Rotation (How much your momentum follows you during a drift)
+    .4byte 0x00000000 # initial drift rotation back axel (?)
+    .4byte 0x00000000 # initial drift rotation front axel (?)
+    .4byte 0x00000000 # unknown
+    .4byte 0x00000000 # unknown
+    .4byte 0x00000000 # unknown
+    .4byte 0x00000000 # how long it takes to generate a drift dash
+    .4byte 0x00000000 # air gain multiplier (tricks)
+    .4byte 0x00000000 # air gain multiplier (shortcuts)
+    .4byte 0x00000000 # air gain multiplier (control stick event/QTE)
+    .4byte 0x00000100 # special flags
+    .4byte 0x00000000 # air cost multiplier when charging jump
+    .4byte 0x000186A0 # level 1 max air
+    .4byte 0x00000050 # level 1 passive air drain
+    .4byte 0x000000A6 # level 1 drift air cost
+    .4byte 0x000061a8 # level 1 boost cost
+    .4byte 0x000061A8 # level 1 tornado cost
+    .4byte 0x3EA5ED09 # level 1 speed gained from a drift dash
+    .4byte 0x3F6D097B # level 1 boost speed
+    .4byte 0x000249F0 # level 2 max air
+    .4byte 0x00000050 # level 2 passive air drain
+    .4byte 0x000000FA # level 2 drift air cost
+    .4byte 0x00007530 # level 2 boost cost
+    .4byte 0x00007530 # level 2 tornado cost
+    .4byte 0x3EED097B # level 2 speed gained from a drift dash
+    .4byte 0x3F884BDA # level 2 boost speed
+    .4byte 0x00030D40 # level 3 max air
+    .4byte 0x00000050 # level 3 passive air drain
+    .4byte 0x0000014D # level 3 drift air cost
+    .4byte 0x00009c40 # level 3 boost cost
+    .4byte 0x00009C40 # level 3 tornado cost
+    .4byte 0x3F0E38E4 # level 3 speed gained from a drift dash
+    .4byte 0x3F9425ED # level 3 boost speed
+    .byte 0x07 # shown dash (tempo) stat
+    .byte 0x00 # shown limit (efficiency) stat
+    .byte 0x00 # shown power (combat) stat
+    .byte 0x00 # shown cornering (weight) stat
+    .4byte 0x42F00000
+    .4byte 0x42C80000
+    .4byte 0x3e4ccccd # Main exhaust width (32 float)
+    .4byte 0x3e4ccccd # Secondary exhaust width (32 float)
+    .4byte 0x3e4ccccd # Tertiary exhaust width (32 float)
+    .4byte 0x3e4ccccd # Fourth exhaust width (32 float)
+    .4byte 0x00000000
+    .4byte 0x00000000
+    .4byte 0x00000000 # Main exhaust rotation?
+    .4byte 0x00000000
+    .4byte 0x00000000
+    .4byte 0x00000000 # Secondary exhaust rotation?
+    .4byte 0x00000000
+    .4byte 0x00000000
+    .4byte 0x00000000 # Tertiary exhaust rotation?
+    .4byte 0x00000000
+    .4byte 0x00000000
+    .4byte 0x00000000 # Fourth exhaust rotation?
+    .4byte 0x3E3851EC # Main exhaust X offset (32 float) 
+    .4byte 0xbdcccccd # Main exhaust Y offset (32 float)
+    .4byte 0xbee66666 # Main exhaust Z offset (32 float)
+    .4byte 0xBE3851EC # Secondary exhaust X offset (32 float)
+    .4byte 0xbdcccccd # Secondary exhaust Y offset (32 float)
+    .4byte 0xbee66666 # Secondary exhaust Z offset (32 float)
+    .4byte 0x00000000 # Tertiary exhaust X offset (32 float)
+    .4byte 0xbe99999a # Tertiary exhaust Y offset (32 float)
+    .4byte 0xbf000000 # Tertiary exhaust Z offset (32 float)
+    .4byte 0x00000000 # Fourth exhaust X offset (32 float)
+    .4byte 0x00000000 # Fourth exhaust Y offset (32 float)
+    .4byte 0x00000000 # Fourth exhaust Z offset (32 float)
+    .4byte 0x0202022A # Bones to apply trails to (almost always 02)
+    .4byte 0x0202022A # Bones to apply trails to? (almost always 02)
+    .4byte 0x00000000
+    .4byte 0x000A0001
+    .4byte 0x00030000 # Amount of exhaust trails
+    .4byte 0x3e4ccccd # Main exhaust width during trick (32 float)
+    .4byte 0x3e4ccccd # Secondary exhaust width during trick (32 float)
+    .4byte 0x3e4ccccd # Tertiary exhaust width during trick (32 float)
+    .4byte 0x00000000 # Fourth exhaust width during trick (32 float)
+    .4byte 0x00000000
+    .4byte 0x00000000
+    .4byte 0x00000000 # Main exhaust rotation during tricks??
+    .4byte 0x00000000
+    .4byte 0x00000000
+    .4byte 0x00000000 # Secondary exhaust rotation during tricks??
+    .4byte 0x00000000
+    .4byte 0x00000000
+    .4byte 0x00000000 # Tertiary exhaust rotation during tricks??
+    .4byte 0x00000000
+    .4byte 0x00000000
+    .4byte 0x00000000 # Fourth exhaust rotation during tricks??
+    .4byte 0x3E3851EC # Main exhaust X offset during tricks (32 float)
+    .4byte 0xbdcccccd # Main exhaust Y offset during tricks (32 float)
+    .4byte 0xbee66666 # Main exhaust Z offset during tricks (32 float)
+    .4byte 0xBE3851EC # Secondary exhaust X offset during tricks (32 float)
+    .4byte 0xbdcccccd # Secondary exhaust Y offset during tricks (32 float)
+    .4byte 0xbee66666 # Secondary exhaust Z offset during tricks (32 float)
+    .4byte 0x00000000 # Tertiary exhaust X offset during tricks (32 float)
+    .4byte 0xbe99999a # Tertiary exhaust Y offset during tricks (32 float)
+    .4byte 0xbf000000 # Tertiary exhaust Z offset during tricks (32 float)
+    .4byte 0x00000000 # Fourth exhaust X offset during tricks (32 float)
+    .4byte 0x00000000 # Fourth exhaust Y offset during tricks (32 float)
+    .4byte 0x00000000 # Fourth exhaust Z offset during tricks (32 float)
+    .4byte 0x02020202 # Bones to apply trails to (almost always 02)
+    .4byte 0x02020202 # Bones to apply trails to? (almost always 02)
+    .4byte 0x3DA3D70A # Trail scale during tricks?
+    .4byte 0x00280100
+    .4byte 0x02030000 # Exhaust mode (?) followed by amount of trails during tricks
+    .4byte 0xFFFFFFFF # Wanted
+    .byte 0x00 # gear type
+    .byte 0x1A # model id
+    .2byte 0x012C # ring cost in gear shop
+    .4byte 0x00000000 # unknown
+    .4byte 0xB9CA4587 # acceleration
+    .4byte 0x3c638e39 # top speed (additive)
+    .4byte 0xC1200000 # off road speed
+    .4byte 0x00000000 # speed and handling multiplier
+    .4byte 0x00000000 # weight
+    .4byte 0x00000000 # extra type attribute
+    .4byte 0x00000000 # speed loss by turning (?)
+    .4byte 0x00000000 # handling speed based? (also affects flight handling)
+    .4byte 0x00000000 # back axel handling (?)
+    .4byte 0x00000000 # front axel handling (?)
+    .4byte 0x00000000 # drifting radius
+    .4byte 0x00000000 # Drift Rotation (How much your momentum follows you during a drift)
+    .4byte 0x00000000 # initial drift rotation back axel (?)
+    .4byte 0x00000000 # initial drift rotation front axel (?)
+    .4byte 0x00000000 # unknown
+    .4byte 0x00000000 # unknown
+    .4byte 0x00000000 # unknown
+    .4byte 0x00000000 # how long it takes to generate a drift dash
+    .4byte 0x00000000 # air gain multiplier (tricks)
+    .4byte 0x00000000 # air gain multiplier (shortcuts)
+    .4byte 0x00000000 # air gain multiplier (control stick event/QTE)
+    .4byte 0x00000000 # special flags
+    .4byte 0x40000000 # air cost multiplier when charging jump
+    .4byte 0x000186A0 # level 1 max air
+    .4byte 0x00000005 # level 1 passive air drain
+    .4byte 0x000000A6 # level 1 drift air cost
+    .4byte 0x000061A8 # level 1 boost cost
+    .4byte 0x000061A8 # level 1 tornado cost
+    .4byte 0x3E6D097B # level 1 speed gained from a drift dash
+    .4byte 0x3F6D097B # level 1 boost speed
+    .4byte 0x000249F0 # level 2 max air
+    .4byte 0x00000005 # level 2 passive air drain
+    .4byte 0x000000FA # level 2 drift air cost
+    .4byte 0x00007530 # level 2 boost cost
+    .4byte 0x00007530 # level 2 tornado cost
+    .4byte 0x3EBDA12F # level 2 speed gained from a drift dash
+    .4byte 0x3F884BDA # level 2 boost speed
+    .4byte 0x00030D40 # level 3 max air
+    .4byte 0x00000005 # level 3 passive air drain
+    .4byte 0x0000014D # level 3 drift air cost
+    .4byte 0x00009C40 # level 3 boost cost
+    .4byte 0x00009C40 # level 3 tornado cost
+    .4byte 0x3EED097B # level 3 speed gained from a drift dash
+    .4byte 0x3F9425ED # level 3 boost speed
+    .byte 0x04 # shown dash (tempo) stat
+    .byte 0x01 # shown limit (efficiency) stat
+    .byte 0x05 # shown power (combat) stat
+    .byte 0x00 # shown cornering (weight) stat
+    .4byte 0x42F00000
+    .4byte 0x42C80000
+    .4byte 0x3ecccccd # Main exhaust width (32 float)
+    .4byte 0x3dcccccd # Secondary exhaust width (32 float)
+    .4byte 0x00000000 # Tertiary exhaust width (32 float)
+    .4byte 0x00000000 # Fourth exhaust width (32 float)
+    .4byte 0x00000000
+    .4byte 0x00000000
+    .4byte 0x00000000 # Main exhaust rotation?
+    .4byte 0x00000000
+    .4byte 0x00000000
+    .4byte 0x00000000 # Secondary exhaust rotation?
+    .4byte 0x00000000
+    .4byte 0x00000000
+    .4byte 0x00000000 # Tertiary exhaust rotation?
+    .4byte 0x00000000
+    .4byte 0x00000000
+    .4byte 0x00000000 # Fourth exhaust rotation?
+    .4byte 0x00000000 # Main exhaust X offset (32 float) 
+    .4byte 0xbe0f5c29 # Main exhaust Y offset (32 float)
+    .4byte 0xbee66666 # Main exhaust Z offset (32 float)
+    .4byte 0x00000000 # Secondary exhaust X offset (32 float)
+    .4byte 0xbe99999a # Secondary exhaust Y offset (32 float)
+    .4byte 0xbee66666 # Secondary exhaust Z offset (32 float)
+    .4byte 0x00000000 # Tertiary exhaust X offset (32 float)
+    .4byte 0x00000000 # Tertiary exhaust Y offset (32 float)
+    .4byte 0xbf000000 # Tertiary exhaust Z offset (32 float)
+    .4byte 0x00000000 # Fourth exhaust X offset (32 float)
+    .4byte 0x00000000 # Fourth exhaust Y offset (32 float)
+    .4byte 0x00000000 # Fourth exhaust Z offset (32 float)
+    .4byte 0x02020000 # Bones to apply trails to (almost always 02)
+    .4byte 0x02020000 # Bones to apply trails to? (almost always 02)
+    .4byte 0x00000000
+    .4byte 0x000A0001
+    .4byte 0x00020000 # Amount of exhaust trails
+    .4byte 0x3ecccccd # Main exhaust width during trick (32 float)
+    .4byte 0x3dcccccd # Secondary exhaust width during trick (32 float)
+    .4byte 0x00000000 # Tertiary exhaust width during trick (32 float)
+    .4byte 0x00000000 # Fourth exhaust width during trick (32 float)
+    .4byte 0x00000000
+    .4byte 0x00000000
+    .4byte 0x00000000 # Main exhaust rotation during tricks??
+    .4byte 0x00000000
+    .4byte 0x00000000
+    .4byte 0x00000000 # Secondary exhaust rotation during tricks??
+    .4byte 0x00000000
+    .4byte 0x00000000
+    .4byte 0x00000000 # Tertiary exhaust rotation during tricks??
+    .4byte 0x00000000
+    .4byte 0x00000000
+    .4byte 0x00000000 # Fourth exhaust rotation during tricks??
+    .4byte 0x00000000 # Main exhaust X offset during tricks (32 float) 
+    .4byte 0xbe0f5c29 # Main exhaust Y offset during tricks (32 float)
+    .4byte 0xbee66666 # Main exhaust Z offset during tricks (32 float)
+    .4byte 0x00000000 # Secondary exhaust X offset during tricks (32 float)
+    .4byte 0xbe99999a # Secondary exhaust Y offset during tricks (32 float)
+    .4byte 0xbee66666 # Secondary exhaust Z offset during tricks (32 float)
+    .4byte 0x00000000 # Tertiary exhaust X offset during tricks (32 float)
+    .4byte 0xbcf5c28f # Tertiary exhaust Y offset during tricks (32 float)
+    .4byte 0xbf000000 # Tertiary exhaust Z offset during tricks (32 float)
+    .4byte 0x00000000 # Fourth exhaust X offset during tricks (32 float)
+    .4byte 0x00000000 # Fourth exhaust Y offset during tricks (32 float)
+    .4byte 0x00000000 # Fourth exhaust Z offset during tricks (32 float)
+    .4byte 0x02020202 # Bones to apply trails to (almost always 02)
+    .4byte 0x02020202 # Bones to apply trails to? (almost always 02)
+    .4byte 0x3DA3D70A # Trail scale during tricks?
+    .4byte 0x00280100
+    .4byte 0x02020000 # Exhaust mode (?) followed by amount of trails during tricks
+    .4byte 0xFFFFFFFF # Shooting Star
+    .byte 0x00 # gear type
+    .byte 0x1A # model id
+    .2byte 0x0000 # ring cost in gear shop
+    .4byte 0x00000000 # unknown
+    .4byte 0x3A48CAC6 # acceleration
+    .4byte 0x3E1C7DEA # top speed (additive)
+    .4byte 0x00000000 # off road speed
+    .4byte 0x00000000 # speed and handling multiplier
+    .4byte 0x00000000 # weight
+    .4byte 0x00000000 # extra type attribute
+    .4byte 0x00000000 # speed loss by turning (?)
+    .4byte 0x00000000 # handling speed based? (also affects flight handling)
+    .4byte 0x00000000 # back axel handling (?)
+    .4byte 0x00000000 # front axel handling (?)
+    .4byte 0x00000000 # drifting radius
+    .4byte 0x00000000 # Drift Rotation (How much your momentum follows you during a drift)
+    .4byte 0x00000000 # initial drift rotation back axel (?)
+    .4byte 0x00000000 # initial drift rotation front axel (?)
+    .4byte 0x00000000 # unknown
+    .4byte 0x00000000 # unknown
+    .4byte 0x00000000 # unknown
+    .4byte 0x00000000 # how long it takes to generate a drift dash
+    .4byte 0x00000000 # air gain multiplier (tricks)
+    .4byte 0x00000000 # air gain multiplier (shortcuts)
+    .4byte 0x00000000 # air gain multiplier (control stick event/QTE)
+    .4byte 0x00000000 # special flags
+    .4byte 0x40000000 # air cost multiplier when charging jump
+    .4byte 0x000186A0 # level 1 max air
+    .4byte 0x00000010 # level 1 passive air drain
+    .4byte 0x000000A6 # level 1 drift air cost
+    .4byte 0x000061A8 # level 1 boost cost
+    .4byte 0x000061A8 # level 1 tornado cost
+    .4byte 0x3E6D097B # level 1 speed gained from a drift dash
+    .4byte 0x3f78e38e # level 1 boost speed
+    .4byte 0x000249F0 # level 2 max air
+    .4byte 0x00000010 # level 2 passive air drain
+    .4byte 0x000000FA # level 2 drift air cost
+    .4byte 0x00007530 # level 2 boost cost
+    .4byte 0x00007530 # level 2 tornado cost
+    .4byte 0x3EBDA12F # level 2 speed gained from a drift dash
+    .4byte 0x3F884BDA # level 2 boost speed
+    .4byte 0x00030D40 # level 3 max air
+    .4byte 0x00000010 # level 3 passive air drain
+    .4byte 0x0000014D # level 3 drift air cost
+    .4byte 0x00009C40 # level 3 boost cost
+    .4byte 0x00009C40 # level 3 tornado cost
+    .4byte 0x3EED097B # level 3 speed gained from a drift dash
+    .4byte 0x3F9425ED # level 3 boost speed
+    .byte 0x07 # shown dash (tempo) stat
+    .byte 0x00 # shown limit (efficiency) stat
+    .byte 0xFC # shown power (combat) stat
+    .byte 0x00 # shown cornering (weight) stat
+    .4byte 0x42F00000
+    .4byte 0x42C80000
+    .4byte 0x3f666666 # Main exhaust width (32 float)
+    .4byte 0x00000000 # Secondary exhaust width (32 float)
+    .4byte 0x00000000 # Tertiary exhaust width (32 float)
+    .4byte 0x00000000 # Fourth exhaust width (32 float)
+    .4byte 0x00000000
+    .4byte 0x00000000
+    .4byte 0x00000000 # Main exhaust rotation?
+    .4byte 0x00000000
+    .4byte 0x00000000
+    .4byte 0x00000000 # Secondary exhaust rotation?
+    .4byte 0x00000000
+    .4byte 0x00000000
+    .4byte 0x00000000 # Tertiary exhaust rotation?
+    .4byte 0x00000000
+    .4byte 0x00000000
+    .4byte 0x00000000 # Fourth exhaust rotation?
+    .4byte 0x00000000 # Main exhaust X offset (32 float) 
+    .4byte 0xbe0f5c29 # Main exhaust Y offset (32 float)
+    .4byte 0xbf19999a # Main exhaust Z offset (32 float)
+    .4byte 0x00000000 # Secondary exhaust X offset (32 float)
+    .4byte 0xbe99999a # Secondary exhaust Y offset (32 float)
+    .4byte 0xbee66666 # Secondary exhaust Z offset (32 float)
+    .4byte 0x00000000 # Tertiary exhaust X offset (32 float)
+    .4byte 0x00000000 # Tertiary exhaust Y offset (32 float)
+    .4byte 0xbf000000 # Tertiary exhaust Z offset (32 float)
+    .4byte 0x00000000 # Fourth exhaust X offset (32 float)
+    .4byte 0x00000000 # Fourth exhaust Y offset (32 float)
+    .4byte 0x00000000 # Fourth exhaust Z offset (32 float)
+    .4byte 0x02020000 # Bones to apply trails to (almost always 02)
+    .4byte 0x02020000 # Bones to apply trails to? (almost always 02)
+    .4byte 0x00000000
+    .4byte 0x000A0001
+    .4byte 0x00010000 # Amount of exhaust trails
+    .4byte 0x3f666666 # Main exhaust width during trick (32 float)
+    .4byte 0x00000000 # Secondary exhaust width during trick (32 float)
+    .4byte 0x00000000 # Tertiary exhaust width during trick (32 float)
+    .4byte 0x00000000 # Fourth exhaust width during trick (32 float)
+    .4byte 0x00000000
+    .4byte 0x00000000
+    .4byte 0x00000000 # Main exhaust rotation during tricks??
+    .4byte 0x00000000
+    .4byte 0x00000000
+    .4byte 0x00000000 # Secondary exhaust rotation during tricks??
+    .4byte 0x00000000
+    .4byte 0x00000000
+    .4byte 0x00000000 # Tertiary exhaust rotation during tricks??
+    .4byte 0x00000000
+    .4byte 0x00000000
+    .4byte 0x00000000 # Fourth exhaust rotation during tricks??
+    .4byte 0x00000000 # Main exhaust X offset during tricks (32 float) 
+    .4byte 0xbe0f5c29 # Main exhaust Y offset during tricks (32 float)
+    .4byte 0xbf19999a # Main exhaust Z offset during tricks (32 float)
+    .4byte 0x00000000 # Secondary exhaust X offset during tricks (32 float)
+    .4byte 0x00000000 # Secondary exhaust Y offset during tricks (32 float)
+    .4byte 0x00000000 # Secondary exhaust Z offset during tricks (32 float)
+    .4byte 0x00000000 # Tertiary exhaust X offset during tricks (32 float)
+    .4byte 0xbcf5c28f # Tertiary exhaust Y offset during tricks (32 float)
+    .4byte 0xbf000000 # Tertiary exhaust Z offset during tricks (32 float)
+    .4byte 0x00000000 # Fourth exhaust X offset during tricks (32 float)
+    .4byte 0x00000000 # Fourth exhaust Y offset during tricks (32 float)
+    .4byte 0x00000000 # Fourth exhaust Z offset during tricks (32 float)
+    .4byte 0x02020202 # Bones to apply trails to (almost always 02)
+    .4byte 0x02020202 # Bones to apply trails to? (almost always 02)
+    .4byte 0x3DA3D70A # Trail scale during tricks?
+    .4byte 0x00280100
+    .4byte 0x02010000 # Exhaust mode (?) followed by amount of trails during tricks
+    .4byte 0xFFFFFFFF # Wind Star
+    .byte 0x00 # gear type
+    .byte 0x1A # model id
+    .2byte 0x0000 # ring cost in gear shop
+    .4byte 0x00000000 # unknown
+    .4byte 0x3A48CAC6 # acceleration
+    .4byte 0xbe04bda1 # top speed (additive)
+    .4byte 0x00000000 # off road speed
+    .4byte 0x00000000 # speed and handling multiplier
+    .4byte 0x00000000 # weight
+    .4byte 0x00000000 # extra type attribute
+    .4byte 0x00000000 # speed loss by turning (?)
+    .4byte 0x00000000 # handling speed based? (also affects flight handling)
+    .4byte 0x00000000 # back axel handling (?)
+    .4byte 0x00000000 # front axel handling (?)
+    .4byte 0x00000000 # drifting radius
+    .4byte 0x00000000 # Drift Rotation (How much your momentum follows you during a drift)
+    .4byte 0x00000000 # initial drift rotation back axel (?)
+    .4byte 0x00000000 # initial drift rotation front axel (?)
+    .4byte 0x00000000 # unknown
+    .4byte 0x00000000 # unknown
+    .4byte 0x00000000 # unknown
+    .4byte 0x00000000 # how long it takes to generate a drift dash
+    .4byte 0x00000000 # air gain multiplier (tricks)
+    .4byte 0x00000000 # air gain multiplier (shortcuts)
+    .4byte 0x00000000 # air gain multiplier (control stick event/QTE)
+    .4byte 0x00000080 # special flags
+    .4byte 0x40000000 # air cost multiplier when charging jump
+    .4byte 0x000186A0 # level 1 max air
+    .4byte 0x00000010 # level 1 passive air drain
+    .4byte 0x000000A6 # level 1 drift air cost
+    .4byte 0x000061A8 # level 1 boost cost
+    .4byte 0x000061A8 # level 1 tornado cost
+    .4byte 0x3E6D097B # level 1 speed gained from a drift dash
+    .4byte 0x3F6D097B # level 1 boost speed
+    .4byte 0x000249F0 # level 2 max air
+    .4byte 0x00000010 # level 2 passive air drain
+    .4byte 0x000000FA # level 2 drift air cost
+    .4byte 0x00007530 # level 2 boost cost
+    .4byte 0x00007530 # level 2 tornado cost
+    .4byte 0x3EBDA12F # level 2 speed gained from a drift dash
+    .4byte 0x3f825ed1 # level 2 boost speed
+    .4byte 0x00030D40 # level 3 max air
+    .4byte 0x00000010 # level 3 passive air drain
+    .4byte 0x0000014D # level 3 drift air cost
+    .4byte 0x00009C40 # level 3 boost cost
+    .4byte 0x00009C40 # level 3 tornado cost
+    .4byte 0x3EED097B # level 3 speed gained from a drift dash
+    .4byte 0x3f8e38e4 # level 3 boost speed
+    .byte 0x00 # shown dash (tempo) stat
+    .byte 0x07 # shown limit (efficiency) stat
+    .byte 0x01 # shown power (combat) stat
+    .byte 0x00 # shown cornering (weight) stat
+    .4byte 0x42F00000
+    .4byte 0x42C80000
+    .4byte 0x3e99999a # Main exhaust width (32 float)
+    .4byte 0x3e99999a # Secondary exhaust width (32 float)
+    .4byte 0x3e4ccccd # Tertiary exhaust width (32 float)
+    .4byte 0x00000000 # Fourth exhaust width (32 float)
+    .4byte 0x00000000
+    .4byte 0x00000000
+    .4byte 0x00000000 # Main exhaust rotation?
+    .4byte 0x00000000
+    .4byte 0x00000000
+    .4byte 0x00000000 # Secondary exhaust rotation?
+    .4byte 0x00000000
+    .4byte 0x00000000
+    .4byte 0x00000000 # Tertiary exhaust rotation?
+    .4byte 0x00000000
+    .4byte 0x00000000
+    .4byte 0x00000000 # Fourth exhaust rotation?
+    .4byte 0x3e800000 # Main exhaust X offset (32 float) 
+    .4byte 0xbe800000 # Main exhaust Y offset (32 float)
+    .4byte 0xbf0ccccd # Main exhaust Z offset (32 float)
+    .4byte 0xbe800000 # Secondary exhaust X offset (32 float)
+    .4byte 0xbe800000 # Secondary exhaust Y offset (32 float)
+    .4byte 0xbf0ccccd # Secondary exhaust Z offset (32 float)
+    .4byte 0x00000000 # Tertiary exhaust X offset (32 float)
+    .4byte 0xbe4ccccd # Tertiary exhaust Y offset (32 float)
+    .4byte 0xbe99999a # Tertiary exhaust Z offset (32 float)
+    .4byte 0x00000000 # Fourth exhaust X offset (32 float)
+    .4byte 0x00000000 # Fourth exhaust Y offset (32 float)
+    .4byte 0x00000000 # Fourth exhaust Z offset (32 float)
+    .4byte 0x0202022A # Bones to apply trails to (almost always 02)
+    .4byte 0x0202022A # Bones to apply trails to? (almost always 02)
+    .4byte 0x00000000
+    .4byte 0x000A0001
+    .4byte 0x00030000 # Amount of exhaust trails
+    .4byte 0x3e99999a # Main exhaust width during trick (32 float)
+    .4byte 0x3e99999a # Secondary exhaust width during trick (32 float)
+    .4byte 0x3e4ccccd # Tertiary exhaust width during trick (32 float)
+    .4byte 0x00000000 # Fourth exhaust width during trick (32 float)
+    .4byte 0x00000000
+    .4byte 0x00000000
+    .4byte 0x00000000 # Main exhaust rotation during tricks??
+    .4byte 0x00000000
+    .4byte 0x00000000
+    .4byte 0x00000000 # Secondary exhaust rotation during tricks??
+    .4byte 0x00000000
+    .4byte 0x00000000
+    .4byte 0x00000000 # Tertiary exhaust rotation during tricks??
+    .4byte 0x00000000
+    .4byte 0x00000000
+    .4byte 0x00000000 # Fourth exhaust rotation during tricks??
+    .4byte 0x3e800000 # Main exhaust X offset during tricks (32 float)
+    .4byte 0xbe800000 # Main exhaust Y offset during tricks (32 float)
+    .4byte 0xbf0ccccd # Main exhaust Z offset during tricks (32 float)
+    .4byte 0xbe800000 # Secondary exhaust X offset during tricks (32 float)
+    .4byte 0xbe800000 # Secondary exhaust Y offset during tricks (32 float)
+    .4byte 0xbf0ccccd # Secondary exhaust Z offset during tricks (32 float)
+    .4byte 0x00000000 # Tertiary exhaust X offset during tricks (32 float)
+    .4byte 0xbe4ccccd # Tertiary exhaust Y offset during tricks (32 float)
+    .4byte 0xbe99999a # Tertiary exhaust Z offset during tricks (32 float)
+    .4byte 0x00000000 # Fourth exhaust X offset during tricks (32 float)
+    .4byte 0x00000000 # Fourth exhaust Y offset during tricks (32 float)
+    .4byte 0x00000000 # Fourth exhaust Z offset during tricks (32 float)
+    .4byte 0x02020202 # Bones to apply trails to (almost always 02)
+    .4byte 0x02020202 # Bones to apply trails to? (almost always 02)
+    .4byte 0x3DA3D70A # Trail scale during tricks?
+    .4byte 0x00280100
+    .4byte 0x02030000 # Exhaust mode (?) followed by amount of trails during tricks
+    .4byte 0xFFFFFFFF # Road Star
+    .byte 0x00 # gear type
+    .byte 0x1A # model id
+    .2byte 0x0000 # ring cost in gear shop
+    .4byte 0x00000000 # unknown
+    .4byte 0x3A48CAC6 # acceleration
+    .4byte 0xbcbda12f # top speed (additive)
+    .4byte 0x00000000 # off road speed
+    .4byte 0x00000000 # speed and handling multiplier
+    .4byte 0x00000000 # weight
+    .4byte 0x00000000 # extra type attribute
+    .4byte 0x00000000 # speed loss by turning (?)
+    .4byte 0x00000000 # handling speed based? (also affects flight handling)
+    .4byte 0x00000000 # back axel handling (?)
+    .4byte 0x00000000 # front axel handling (?)
+    .4byte 0x00000000 # drifting radius
+    .4byte 0x00000000 # Drift Rotation (How much your momentum follows you during a drift)
+    .4byte 0x00000000 # initial drift rotation back axel (?)
+    .4byte 0x00000000 # initial drift rotation front axel (?)
+    .4byte 0x00000000 # unknown
+    .4byte 0x00000000 # unknown
+    .4byte 0x00000000 # unknown
+    .4byte 0x00000000 # how long it takes to generate a drift dash
+    .4byte 0x00000000 # air gain multiplier (tricks)
+    .4byte 0x00000000 # air gain multiplier (shortcuts)
+    .4byte 0x00000000 # air gain multiplier (control stick event/QTE)
+    .4byte 0x00000000 # special flags
+    .4byte 0x40000000 # air cost multiplier when charging jump
+    .4byte 0x000186A0 # level 1 max air
+    .4byte 0x00000010 # level 1 passive air drain
+    .4byte 0x000000A6 # level 1 drift air cost
+    .4byte 0x000061A8 # level 1 boost cost
+    .4byte 0x000061A8 # level 1 tornado cost
+    .4byte 0x3E6D097B # level 1 speed gained from a drift dash
+    .4byte 0x3f78e38e # level 1 boost speed
+    .4byte 0x000249F0 # level 2 max air
+    .4byte 0x00000010 # level 2 passive air drain
+    .4byte 0x000000FA # level 2 drift air cost
+    .4byte 0x00007530 # level 2 boost cost
+    .4byte 0x00007530 # level 2 tornado cost
+    .4byte 0x3EBDA12F # level 2 speed gained from a drift dash
+    .4byte 0x3F884BDA # level 2 boost speed
+    .4byte 0x00030D40 # level 3 max air
+    .4byte 0x00000010 # level 3 passive air drain
+    .4byte 0x0000014D # level 3 drift air cost
+    .4byte 0x00009C40 # level 3 boost cost
+    .4byte 0x00009C40 # level 3 tornado cost
+    .4byte 0x3EED097B # level 3 speed gained from a drift dash
+    .4byte 0x3f912f68 # level 3 boost speed
+    .byte 0x05 # shown dash (tempo) stat
+    .byte 0x01 # shown limit (efficiency) stat
+    .byte 0x04 # shown power (combat) stat
+    .byte 0x00 # shown cornering (weight) stat
+    .4byte 0x42F00000
+    .4byte 0x42C80000
+    .4byte 0x3f666666 # Main exhaust width (32 float)
+    .4byte 0x00000000 # Secondary exhaust width (32 float)
+    .4byte 0x00000000 # Tertiary exhaust width (32 float)
+    .4byte 0x00000000 # Fourth exhaust width (32 float)
+    .4byte 0x00000000
+    .4byte 0x00000000
+    .4byte 0x00000000 # Main exhaust rotation?
+    .4byte 0x00000000
+    .4byte 0x00000000
+    .4byte 0x00000000 # Secondary exhaust rotation?
+    .4byte 0x00000000
+    .4byte 0x00000000
+    .4byte 0x00000000 # Tertiary exhaust rotation?
+    .4byte 0x00000000
+    .4byte 0x00000000
+    .4byte 0x00000000 # Fourth exhaust rotation?
+    .4byte 0x00000000 # Main exhaust X offset (32 float) 
+    .4byte 0xbe0f5c29 # Main exhaust Y offset (32 float)
+    .4byte 0xbf000000 # Main exhaust Z offset (32 float)
+    .4byte 0x00000000 # Secondary exhaust X offset (32 float)
+    .4byte 0xbe99999a # Secondary exhaust Y offset (32 float)
+    .4byte 0xbee66666 # Secondary exhaust Z offset (32 float)
+    .4byte 0x00000000 # Tertiary exhaust X offset (32 float)
+    .4byte 0x00000000 # Tertiary exhaust Y offset (32 float)
+    .4byte 0xbf000000 # Tertiary exhaust Z offset (32 float)
+    .4byte 0x00000000 # Fourth exhaust X offset (32 float)
+    .4byte 0x00000000 # Fourth exhaust Y offset (32 float)
+    .4byte 0x00000000 # Fourth exhaust Z offset (32 float)
+    .4byte 0x02020000 # Bones to apply trails to (almost always 02)
+    .4byte 0x02020000 # Bones to apply trails to? (almost always 02)
+    .4byte 0x00000000
+    .4byte 0x000A0001
+    .4byte 0x00010000 # Amount of exhaust trails
+    .4byte 0x3f666666 # Main exhaust width during trick (32 float)
+    .4byte 0x00000000 # Secondary exhaust width during trick (32 float)
+    .4byte 0x00000000 # Tertiary exhaust width during trick (32 float)
+    .4byte 0x00000000 # Fourth exhaust width during trick (32 float)
+    .4byte 0x00000000
+    .4byte 0x00000000
+    .4byte 0x00000000 # Main exhaust rotation during tricks??
+    .4byte 0x00000000
+    .4byte 0x00000000
+    .4byte 0x00000000 # Secondary exhaust rotation during tricks??
+    .4byte 0x00000000
+    .4byte 0x00000000
+    .4byte 0x00000000 # Tertiary exhaust rotation during tricks??
+    .4byte 0x00000000
+    .4byte 0x00000000
+    .4byte 0x00000000 # Fourth exhaust rotation during tricks??
+    .4byte 0x00000000 # Main exhaust X offset during tricks (32 float) 
+    .4byte 0xbe0f5c29 # Main exhaust Y offset during tricks (32 float)
+    .4byte 0xbf000000 # Main exhaust Z offset during tricks (32 float)
+    .4byte 0x00000000 # Secondary exhaust X offset during tricks (32 float)
+    .4byte 0x00000000 # Secondary exhaust Y offset during tricks (32 float)
+    .4byte 0x00000000 # Secondary exhaust Z offset during tricks (32 float)
+    .4byte 0x00000000 # Tertiary exhaust X offset during tricks (32 float)
+    .4byte 0xbcf5c28f # Tertiary exhaust Y offset during tricks (32 float)
+    .4byte 0xbf000000 # Tertiary exhaust Z offset during tricks (32 float)
+    .4byte 0x00000000 # Fourth exhaust X offset during tricks (32 float)
+    .4byte 0x00000000 # Fourth exhaust Y offset during tricks (32 float)
+    .4byte 0x00000000 # Fourth exhaust Z offset during tricks (32 float)
+    .4byte 0x02020202 # Bones to apply trails to (almost always 02)
+    .4byte 0x02020202 # Bones to apply trails to? (almost always 02)
+    .4byte 0x3DA3D70A # Trail scale during tricks?
+    .4byte 0x00280100
+    .4byte 0x02010000 # Exhaust mode (?) followed by amount of trails during tricks
+    .4byte 0xFFFFFFFF # Archangel
+    .byte 0x00 # gear type
+    .byte 0x1A # model id
+    .2byte 0x0000 # ring cost in gear shop
+    .4byte 0x00000000 # unknown
+    .4byte 0x3A48CAC6 # acceleration
+    .4byte 0x3e1c71c7 # top speed (additive)
+    .4byte 0x00000000 # off road speed
+    .4byte 0x00000000 # speed and handling multiplier
+    .4byte 0x00000000 # weight
+    .4byte 0x00000000 # extra type attribute
+    .4byte 0x00000000 # speed loss by turning (?)
+    .4byte 0x00000000 # handling speed based? (also affects flight handling)
+    .4byte 0x00000000 # back axel handling (?)
+    .4byte 0x00000000 # front axel handling (?)
+    .4byte 0x00000000 # drifting radius
+    .4byte 0x00000000 # Drift Rotation (How much your momentum follows you during a drift)
+    .4byte 0x00000000 # initial drift rotation back axel (?)
+    .4byte 0x00000000 # initial drift rotation front axel (?)
+    .4byte 0x00000000 # unknown
+    .4byte 0x00000000 # unknown
+    .4byte 0x00000000 # unknown
+    .4byte 0x00000000 # how long it takes to generate a drift dash
+    .4byte 0x00000000 # air gain multiplier (tricks)
+    .4byte 0x00000000 # air gain multiplier (shortcuts)
+    .4byte 0x00000000 # air gain multiplier (control stick event/QTE)
+    .4byte 0x00000000 # special flags
+    .4byte 0x40000000 # air cost multiplier when charging jump
+    .4byte 0x00030D40 # level 1 max air
+    .4byte 0x00000040 # level 1 passive air drain
+    .4byte 0x0000014D # level 1 drift air cost
+    .4byte 0x00004E20 # level 1 boost cost
+    .4byte 0x000061A8 # level 1 tornado cost
+    .4byte 0x3E6D097B # level 1 speed gained from a drift dash
+    .4byte 0x3f971c72 # level 1 boost speed
+    .4byte 0x000249F0 # level 2 max air
+    .4byte 0x00000010 # level 2 passive air drain
+    .4byte 0x000000FA # level 2 drift air cost
+    .4byte 0x00004E20 # level 2 boost cost
+    .4byte 0x00007530 # level 2 tornado cost
+    .4byte 0x3EBDA12F # level 2 speed gained from a drift dash
+    .4byte 0x3f825ed1 # level 2 boost speed
+    .4byte 0x00030D40 # level 3 max air
+    .4byte 0x00000040 # level 3 passive air drain
+    .4byte 0x0000014D # level 3 drift air cost
+    .4byte 0x00004E20 # level 3 boost cost
+    .4byte 0x00009C40 # level 3 tornado cost
+    .4byte 0x3EED097B # level 3 speed gained from a drift dash
+    .4byte 0x3f912f68 # level 3 boost speed
+    .byte 0x07 # shown dash (tempo) stat
+    .byte 0xFE # shown limit (efficiency) stat
+    .byte 0x06 # shown power (combat) stat
+    .byte 0x00 # shown cornering (weight) stat
+    .4byte 0x42F00000
+    .4byte 0x42C80000
+    .4byte 0x3ecccccd # Main exhaust width (32 float)
+    .4byte 0x3dcccccd # Secondary exhaust width (32 float)
+    .4byte 0x00000000 # Tertiary exhaust width (32 float)
+    .4byte 0x00000000 # Fourth exhaust width (32 float)
+    .4byte 0x00000000
+    .4byte 0x00000000
+    .4byte 0x00000000 # Main exhaust rotation?
+    .4byte 0x00000000
+    .4byte 0x00000000
+    .4byte 0x00000000 # Secondary exhaust rotation?
+    .4byte 0x00000000
+    .4byte 0x00000000
+    .4byte 0x00000000 # Tertiary exhaust rotation?
+    .4byte 0x00000000
+    .4byte 0x00000000
+    .4byte 0x00000000 # Fourth exhaust rotation?
+    .4byte 0x00000000 # Main exhaust X offset (32 float) 
+    .4byte 0xbe0f5c29 # Main exhaust Y offset (32 float)
+    .4byte 0xbee66666 # Main exhaust Z offset (32 float)
+    .4byte 0x00000000 # Secondary exhaust X offset (32 float)
+    .4byte 0xbe99999a # Secondary exhaust Y offset (32 float)
+    .4byte 0xbee66666 # Secondary exhaust Z offset (32 float)
+    .4byte 0x00000000 # Tertiary exhaust X offset (32 float)
+    .4byte 0x00000000 # Tertiary exhaust Y offset (32 float)
+    .4byte 0xbf000000 # Tertiary exhaust Z offset (32 float)
+    .4byte 0x00000000 # Fourth exhaust X offset (32 float)
+    .4byte 0x00000000 # Fourth exhaust Y offset (32 float)
+    .4byte 0x00000000 # Fourth exhaust Z offset (32 float)
+    .4byte 0x02020000 # Bones to apply trails to (almost always 02)
+    .4byte 0x02020000 # Bones to apply trails to? (almost always 02)
+    .4byte 0x00000000
+    .4byte 0x000A0001
+    .4byte 0x00020000 # Amount of exhaust trails
+    .4byte 0x3ecccccd # Main exhaust width during trick (32 float)
+    .4byte 0x3dcccccd # Secondary exhaust width during trick (32 float)
+    .4byte 0x00000000 # Tertiary exhaust width during trick (32 float)
+    .4byte 0x00000000 # Fourth exhaust width during trick (32 float)
+    .4byte 0x00000000
+    .4byte 0x00000000
+    .4byte 0x00000000 # Main exhaust rotation during tricks??
+    .4byte 0x00000000
+    .4byte 0x00000000
+    .4byte 0x00000000 # Secondary exhaust rotation during tricks??
+    .4byte 0x00000000
+    .4byte 0x00000000
+    .4byte 0x00000000 # Tertiary exhaust rotation during tricks??
+    .4byte 0x00000000
+    .4byte 0x00000000
+    .4byte 0x00000000 # Fourth exhaust rotation during tricks??
+    .4byte 0x00000000 # Main exhaust X offset during tricks (32 float) 
+    .4byte 0xbe0f5c29 # Main exhaust Y offset during tricks (32 float)
+    .4byte 0xbee66666 # Main exhaust Z offset during tricks (32 float)
+    .4byte 0x00000000 # Secondary exhaust X offset during tricks (32 float)
+    .4byte 0xbe99999a # Secondary exhaust Y offset during tricks (32 float)
+    .4byte 0xbee66666 # Secondary exhaust Z offset during tricks (32 float)
+    .4byte 0x00000000 # Tertiary exhaust X offset during tricks (32 float)
+    .4byte 0xbcf5c28f # Tertiary exhaust Y offset during tricks (32 float)
+    .4byte 0xbf000000 # Tertiary exhaust Z offset during tricks (32 float)
+    .4byte 0x00000000 # Fourth exhaust X offset during tricks (32 float)
+    .4byte 0x00000000 # Fourth exhaust Y offset during tricks (32 float)
+    .4byte 0x00000000 # Fourth exhaust Z offset during tricks (32 float)
+    .4byte 0x02020202 # Bones to apply trails to (almost always 02)
+    .4byte 0x02020202 # Bones to apply trails to? (almost always 02)
+    .4byte 0x3DA3D70A # Trail scale during tricks?
+    .4byte 0x00280100
+    .4byte 0x02020000 # Exhaust mode (?) followed by amount of trails during tricks
+    .4byte 0xFFFFFFFF # Reserve Tank
+    .byte 0x02 # gear type
+    .byte 0x31 # model id
+    .2byte 0x0000 # ring cost in gear shop
+    .4byte 0x00000000 # unknown
+    .4byte 0x3A48CAC6 # acceleration
+    .4byte 0xBD3DA12F # top speed (additive)
+    .4byte 0x00000000 # off road speed
+    .4byte 0x00000000 # speed and handling multiplier
+    .4byte 0x00000000 # weight
+    .4byte 0x00000000 # extra type attribute
+    .4byte 0x00000000 # speed loss by turning (?)
+    .4byte 0x00000000 # handling speed based? (also affects flight handling)
+    .4byte 0x00000000 # back axel handling (?)
+    .4byte 0x00000000 # front axel handling (?)
+    .4byte 0x00000000 # drifting radius
+    .4byte 0x00000000 # Drift Rotation (How much your momentum follows you during a drift)
+    .4byte 0x00000000 # initial drift rotation back axel (?)
+    .4byte 0x00000000 # initial drift rotation front axel (?)
+    .4byte 0x00000000 # unknown
+    .4byte 0x00000000 # unknown
+    .4byte 0x00000000 # unknown
+    .4byte 0x00000000 # how long it takes to generate a drift dash
+    .4byte 0xbf400000 # air gain multiplier (tricks)
+    .4byte 0xbf400000 # air gain multiplier (shortcuts)
+    .4byte 0x00000000 # air gain multiplier (control stick event/QTE)
+    .4byte 0x00004000 # special flags SYB: No pits.
+    .4byte 0x40000000 # air cost multiplier when charging jump
+    .4byte 0x00030D40 # level 1 max air
+    .4byte 0x00000000 # level 1 passive air drain
+    .4byte 0x0000014D # level 1 drift air cost
+    .4byte 0x00009C40 # level 1 boost cost
+    .4byte 0x00009C40 # level 1 tornado cost
+    .4byte 0x3EED097B # level 1 speed gained from a drift dash
+    .4byte 0x3f8e38e4 # level 1 boost speed
+    .4byte 0x00030D40 # level 2 max air
+    .4byte 0x00000000 # level 2 passive air drain
+    .4byte 0x0000014D # level 2 drift air cost
+    .4byte 0x00009C40 # level 2 boost cost
+    .4byte 0x00009C40 # level 2 tornado cost
+    .4byte 0x3EED097B # level 2 speed gained from a drift dash
+    .4byte 0x3f8e38e4 # level 2 boost speed
+    .4byte 0x00030D40 # level 3 max air
+    .4byte 0x00000000 # level 3 passive air drain
+    .4byte 0x0000014D # level 3 drift air cost
+    .4byte 0x00009C40 # level 3 boost cost
+    .4byte 0x00009C40 # level 3 tornado cost
+    .4byte 0x3EED097B # level 3 speed gained from a drift dash
+    .4byte 0x3f8e38e4 # level 3 boost speed
+    .byte 0x06 # shown dash (tempo) stat
+    .byte 0x08 # shown limit (efficiency) stat
+    .byte 0xFE # shown power (combat) stat
+    .byte 0x05 # shown cornering (weight) stat
+    .4byte 0x42F00000
+    .4byte 0x42C80000
+    .4byte 0x3F000000
+    .4byte 0x00000000
+    .4byte 0x00000000
+    .4byte 0x00000000
+    .4byte 0x00000000
+    .4byte 0x00000000
+    .4byte 0x00000000
+    .4byte 0x00000000
+    .4byte 0x00000000
+    .4byte 0x00000000
+    .4byte 0x00000000
+    .4byte 0x00000000
+    .4byte 0x00000000
+    .4byte 0x00000000
+    .4byte 0x00000000
+    .4byte 0x00000000
+    .4byte 0x00000000
+    .4byte 0xBD4CCCCD
+    .4byte 0xBF266666
+    .4byte 0x00000000
+    .4byte 0x00000000
+    .4byte 0x00000000
+    .4byte 0x00000000
+    .4byte 0x00000000
+    .4byte 0x00000000
+    .4byte 0x00000000
+    .4byte 0x00000000
+    .4byte 0x00000000
+    .4byte 0x02000000
+    .4byte 0x02000000
+    .4byte 0x00000000
+    .4byte 0x000A0001
+    .4byte 0x00010000
+    .4byte 0x3F000000
+    .4byte 0x00000000
+    .4byte 0x00000000
+    .4byte 0x00000000
+    .4byte 0x00000000
+    .4byte 0x00000000
+    .4byte 0x00000000
+    .4byte 0x00000000
+    .4byte 0x00000000
+    .4byte 0x00000000
+    .4byte 0x00000000
+    .4byte 0x00000000
+    .4byte 0x00000000
+    .4byte 0x00000000
+    .4byte 0x00000000
+    .4byte 0x00000000
+    .4byte 0x00000000
+    .4byte 0xBD4CCCCD
+    .4byte 0xBF266666
+    .4byte 0x00000000
+    .4byte 0x00000000
+    .4byte 0x00000000
+    .4byte 0x00000000
+    .4byte 0x00000000
+    .4byte 0x00000000
+    .4byte 0x00000000
+    .4byte 0x00000000
+    .4byte 0x00000000
+    .4byte 0x02000000
+    .4byte 0x02000000
+    .4byte 0x3DA3D70A
+    .4byte 0x00280100
+    .4byte 0x02010000
+    .4byte 0xFFFFFFFF # Warp Drive
+    .byte 0x00 # gear type
+    .byte 0x1A # model id
+    .2byte 0x0000 # ring cost in gear shop
+    .4byte 0x00000000 # unknown
+    .4byte 0x3A48CAC6 # acceleration
+    .4byte 0x3c638e39 # top speed (additive)
+    .4byte 0x00000000 # off road speed
+    .4byte 0x00000000 # speed and handling multiplier
+    .4byte 0x00000000 # weight
+    .4byte 0x00000000 # extra type attribute
+    .4byte 0x00000000 # speed loss by turning (?)
+    .4byte 0x00000000 # handling speed based? (also affects flight handling)
+    .4byte 0x00000000 # back axel handling (?)
+    .4byte 0x00000000 # front axel handling (?)
+    .4byte 0x00000000 # drifting radius
+    .4byte 0x00000000 # Drift Rotation (How much your momentum follows you during a drift)
+    .4byte 0x00000000 # initial drift rotation back axel (?)
+    .4byte 0x00000000 # initial drift rotation front axel (?)
+    .4byte 0x00000000 # unknown
+    .4byte 0x00000000 # unknown
+    .4byte 0x00000000 # unknown
+    .4byte 0x00000000 # how long it takes to generate a drift dash
+    .4byte 0x00000000 # air gain multiplier (tricks)
+    .4byte 0x00000000 # air gain multiplier (shortcuts)
+    .4byte 0x00000000 # air gain multiplier (control stick event/QTE)
+    .4byte 0x00020001 # special flags
+    .4byte 0x40000000 # air cost multiplier when charging jump
+    .4byte 0x000186A0 # level 1 max air
+    .4byte 0x00000010 # level 1 passive air drain
+    .4byte 0x000000A6 # level 1 drift air cost
+    .4byte 0x000061A8 # level 1 boost cost
+    .4byte 0x000061A8 # level 1 tornado cost
+    .4byte 0x3E6D097B # level 1 speed gained from a drift dash
+    .4byte 0x3F6D097B # level 1 boost speed
+    .4byte 0x000249F0 # level 2 max air
+    .4byte 0x00000010 # level 2 passive air drain
+    .4byte 0x000000FA # level 2 drift air cost
+    .4byte 0x00007530 # level 2 boost cost
+    .4byte 0x00007530 # level 2 tornado cost
+    .4byte 0x3EBDA12F # level 2 speed gained from a drift dash
+    .4byte 0x3F884BDA # level 2 boost speed
+    .4byte 0x00030D40 # level 3 max air
+    .4byte 0x00000010 # level 3 passive air drain
+    .4byte 0x0000014D # level 3 drift air cost
+    .4byte 0x00009C40 # level 3 boost cost
+    .4byte 0x00009C40 # level 3 tornado cost
+    .4byte 0x3EED097B # level 3 speed gained from a drift dash
+    .4byte 0x3F9425ED # level 3 boost speed
+    .byte 0x04 # shown dash (tempo) stat
+    .byte 0xFE # shown limit (efficiency) stat
+    .byte 0x06 # shown power (combat) stat
+    .byte 0x00 # shown cornering (weight) stat
+    .4byte 0x42F00000
+    .4byte 0x42C80000
+    .4byte 0x3e99999a # Main exhaust width (32 float)
+    .4byte 0x3e99999a # Secondary exhaust width (32 float)
+    .4byte 0x00000000 # Tertiary exhaust width (32 float)
+    .4byte 0x00000000 # Fourth exhaust width (32 float)
+    .4byte 0x00000000
+    .4byte 0x00000000
+    .4byte 0x00000000 # Main exhaust rotation?
+    .4byte 0x00000000
+    .4byte 0x00000000
+    .4byte 0x00000000 # Secondary exhaust rotation?
+    .4byte 0x00000000
+    .4byte 0x00000000
+    .4byte 0x00000000 # Tertiary exhaust rotation?
+    .4byte 0x00000000
+    .4byte 0x00000000
+    .4byte 0x00000000 # Fourth exhaust rotation?
+    .4byte 0x3e4ccccd # Main exhaust X offset (32 float) 
+    .4byte 0xbe800000 # Main exhaust Y offset (32 float)
+    .4byte 0xbecccccd # Main exhaust Z offset (32 float)
+    .4byte 0xbe4ccccd # Secondary exhaust X offset (32 float)
+    .4byte 0xbe800000 # Secondary exhaust Y offset (32 float)
+    .4byte 0xbecccccd # Secondary exhaust Z offset (32 float)
+    .4byte 0x00000000 # Tertiary exhaust X offset (32 float)
+    .4byte 0x00000000 # Tertiary exhaust Y offset (32 float)
+    .4byte 0x00000000 # Tertiary exhaust Z offset (32 float)
+    .4byte 0x00000000 # Fourth exhaust X offset (32 float)
+    .4byte 0x00000000 # Fourth exhaust Y offset (32 float)
+    .4byte 0x00000000 # Fourth exhaust Z offset (32 float)
+    .4byte 0x02020000 # Bones to apply trails to (almost always 02)
+    .4byte 0x02020000 # Bones to apply trails to? (almost always 02)
+    .4byte 0x00000000
+    .4byte 0x000A0001
+    .4byte 0x00020000 # Amount of exhaust trails
+    .4byte 0x3e99999a # Main exhaust width during trick (32 float)
+    .4byte 0x3e99999a # Secondary exhaust width during trick (32 float)
+    .4byte 0x00000000 # Tertiary exhaust width during trick (32 float)
+    .4byte 0x00000000 # Fourth exhaust width during trick (32 float)
+    .4byte 0x00000000
+    .4byte 0x00000000
+    .4byte 0x00000000 # Main exhaust rotation during tricks??
+    .4byte 0x00000000
+    .4byte 0x00000000
+    .4byte 0x00000000 # Secondary exhaust rotation during tricks??
+    .4byte 0x00000000
+    .4byte 0x00000000
+    .4byte 0x00000000 # Tertiary exhaust rotation during tricks??
+    .4byte 0x00000000
+    .4byte 0x00000000
+    .4byte 0x00000000 # Fourth exhaust rotation during tricks??
+    .4byte 0x3e4ccccd # Main exhaust X offset during tricks (32 float) 
+    .4byte 0xbe800000 # Main exhaust Y offset during tricks (32 float)
+    .4byte 0xbecccccd # Main exhaust Z offset during tricks (32 float)
+    .4byte 0xbe4ccccd # Secondary exhaust X offset during tricks (32 float)
+    .4byte 0xbe800000 # Secondary exhaust Y offset during tricks (32 float)
+    .4byte 0xbecccccd # Secondary exhaust Z offset during tricks (32 float)
+    .4byte 0x00000000 # Tertiary exhaust X offset during tricks (32 float)
+    .4byte 0xbcf5c28f # Tertiary exhaust Y offset during tricks (32 float)
+    .4byte 0xbf000000 # Tertiary exhaust Z offset during tricks (32 float)
+    .4byte 0x00000000 # Fourth exhaust X offset during tricks (32 float)
+    .4byte 0x00000000 # Fourth exhaust Y offset during tricks (32 float)
+    .4byte 0x00000000 # Fourth exhaust Z offset during tricks (32 float)
+    .4byte 0x02020202 # Bones to apply trails to (almost always 02)
+    .4byte 0x02020202 # Bones to apply trails to? (almost always 02)
+    .4byte 0x3DA3D70A # Trail scale during tricks?
+    .4byte 0x00280100
+    .4byte 0x02020000 # Exhaust mode (?) followed by amount of trails during tricks
+    .4byte 0xFFFFFFFF # Challenger
+    .byte 0x00 # gear type
+    .byte 0x1A # model id
+    .2byte 0x0000 # ring cost in gear shop
+    .4byte 0x00000000 # unknown
+    .4byte 0x3A48CAC6 # acceleration
+    .4byte 0x3daaaaab # top speed (additive)
+    .4byte 0x00000000 # off road speed
+    .4byte 0x00000000 # speed and handling multiplier
+    .4byte 0x00000000 # weight
+    .4byte 0x00000000 # extra type attribute
+    .4byte 0x00000000 # speed loss by turning (?)
+    .4byte 0x00000000 # handling speed based? (also affects flight handling)
+    .4byte 0x00000000 # back axel handling (?)
+    .4byte 0x00000000 # front axel handling (?)
+    .4byte 0x00000000 # drifting radius
+    .4byte 0x00000000 # Drift Rotation (How much your momentum follows you during a drift)
+    .4byte 0x00000000 # initial drift rotation back axel (?)
+    .4byte 0x00000000 # initial drift rotation front axel (?)
+    .4byte 0x00000000 # unknown
+    .4byte 0x00000000 # unknown
+    .4byte 0x00000000 # unknown
+    .4byte 0x00000000 # how long it takes to generate a drift dash
+    .4byte 0x00000000 # air gain multiplier (tricks)
+    .4byte 0x00000000 # air gain multiplier (shortcuts)
+    .4byte 0x00000000 # air gain multiplier (control stick event/QTE)
+    .4byte 0x00000000 # special flags
+    .4byte 0x40000000 # air cost multiplier when charging jump
+    .4byte 0x000186A0 # level 1 max air
+    .4byte 0x00000010 # level 1 passive air drain
+    .4byte 0x000000A6 # level 1 drift air cost
+    .4byte 0x000061A8 # level 1 boost cost
+    .4byte 0x000061A8 # level 1 tornado cost
+    .4byte 0x3E6D097B # level 1 speed gained from a drift dash
+    .4byte 0x3f78e38e # level 1 boost speed
+    .4byte 0x000249F0 # level 2 max air
+    .4byte 0x00000010 # level 2 passive air drain
+    .4byte 0x000000FA # level 2 drift air cost
+    .4byte 0x00007530 # level 2 boost cost
+    .4byte 0x00007530 # level 2 tornado cost
+    .4byte 0x3EBDA12F # level 2 speed gained from a drift dash
+    .4byte 0x3F884BDA # level 2 boost speed
+    .4byte 0x00030D40 # level 3 max air
+    .4byte 0x00000010 # level 3 passive air drain
+    .4byte 0x0000014D # level 3 drift air cost
+    .4byte 0x00009C40 # level 3 boost cost
+    .4byte 0x00009C40 # level 3 tornado cost
+    .4byte 0x3EED097B # level 3 speed gained from a drift dash
+    .4byte 0x3F9425ED # level 3 boost speed
+    .byte 0xFF # shown dash (tempo) stat
+    .byte 0xFE # shown limit (efficiency) stat
+    .byte 0xFE # shown power (combat) stat
+    .byte 0x00 # shown cornering (weight) stat
+    .4byte 0x42F00000
+    .4byte 0x42C80000
+    .4byte 0x3e800000 # Main exhaust width (32 float)
+    .4byte 0x3e800000 # Secondary exhaust width (32 float)
+    .4byte 0x3e4ccccd # Tertiary exhaust width (32 float)
+    .4byte 0x00000000 # Fourth exhaust width (32 float)
+    .4byte 0x00000000
+    .4byte 0x00000000
+    .4byte 0x00000000 # Main exhaust rotation?
+    .4byte 0x00000000
+    .4byte 0x00000000
+    .4byte 0x00000000 # Secondary exhaust rotation?
+    .4byte 0x00000000
+    .4byte 0x00000000
+    .4byte 0x00000000 # Tertiary exhaust rotation?
+    .4byte 0x00000000
+    .4byte 0x00000000
+    .4byte 0x00000000 # Fourth exhaust rotation?
+    .4byte 0x3e800000 # Main exhaust X offset (32 float) 
+    .4byte 0xbdcccccd # Main exhaust Y offset (32 float)
+    .4byte 0xbf0ccccd # Main exhaust Z offset (32 float)
+    .4byte 0xbe800000 # Secondary exhaust X offset (32 float)
+    .4byte 0xbdcccccd # Secondary exhaust Y offset (32 float)
+    .4byte 0xbf0ccccd # Secondary exhaust Z offset (32 float)
+    .4byte 0x00000000 # Tertiary exhaust X offset (32 float)
+    .4byte 0xbee66666 # Tertiary exhaust Y offset (32 float)
+    .4byte 0xbf0ccccd # Tertiary exhaust Z offset (32 float)
+    .4byte 0x00000000 # Fourth exhaust X offset (32 float)
+    .4byte 0x00000000 # Fourth exhaust Y offset (32 float)
+    .4byte 0x00000000 # Fourth exhaust Z offset (32 float)
+    .4byte 0x02020200 # Bones to apply trails to (almost always 02)
+    .4byte 0x02020200 # Bones to apply trails to? (almost always 02)
+    .4byte 0x00000000
+    .4byte 0x000A0001
+    .4byte 0x00030000 # Amount of exhaust trails
+    .4byte 0x3e800000 # Main exhaust width during trick (32 float)
+    .4byte 0x3e800000 # Secondary exhaust width during trick (32 float)
+    .4byte 0x3e4ccccd # Tertiary exhaust width during trick (32 float)
+    .4byte 0x00000000 # Fourth exhaust width during trick (32 float)
+    .4byte 0x00000000
+    .4byte 0x00000000
+    .4byte 0x00000000 # Main exhaust rotation during tricks??
+    .4byte 0x00000000
+    .4byte 0x00000000
+    .4byte 0x00000000 # Secondary exhaust rotation during tricks??
+    .4byte 0x00000000
+    .4byte 0x00000000
+    .4byte 0x00000000 # Tertiary exhaust rotation during tricks??
+    .4byte 0x00000000
+    .4byte 0x00000000
+    .4byte 0x00000000 # Fourth exhaust rotation during tricks??
+    .4byte 0x3e800000 # Main exhaust X offset during tricks (32 float) 
+    .4byte 0xbdcccccd # Main exhaust Y offset during tricks (32 float)
+    .4byte 0xbf0ccccd # Main exhaust Z offset during tricks (32 float)
+    .4byte 0xbe800000 # Secondary exhaust X offset during tricks (32 float)
+    .4byte 0xbdcccccd # Secondary exhaust Y offset during tricks (32 float)
+    .4byte 0xbf0ccccd # Secondary exhaust Z offset during tricks (32 float)
+    .4byte 0x00000000 # Tertiary exhaust X offset during tricks (32 float)
+    .4byte 0xbee66666 # Tertiary exhaust Y offset during tricks (32 float)
+    .4byte 0xbf0ccccd # Tertiary exhaust Z offset during tricks (32 float)
+    .4byte 0x00000000 # Fourth exhaust X offset during tricks (32 float)
+    .4byte 0x00000000 # Fourth exhaust Y offset during tricks (32 float)
+    .4byte 0x00000000 # Fourth exhaust Z offset during tricks (32 float)
+    .4byte 0x02020202 # Bones to apply trails to (almost always 02)
+    .4byte 0x02020202 # Bones to apply trails to? (almost always 02)
+    .4byte 0x3DA3D70A # Trail scale during tricks?
+    .4byte 0x00280100
+    .4byte 0x02030000 # Exhaust mode (?) followed by amount of trails during tricks
+    .4byte 0xFFFFFFFF # G.U.N. Bike
+    .byte 0x02 # gear type
+    .byte 0x31 # model id
+    .2byte 0x0000 # ring cost in gear shop
+    .4byte 0x00000000 # unknown
+    .4byte 0x3A48CAC6 # acceleration
+    .4byte 0x3E1C7DEA # top speed (additive)
+    .4byte 0x00000000 # off road speed
+    .4byte 0x00000000 # speed and handling multiplier
+    .4byte 0x00000000 # weight
+    .4byte 0x00000000 # extra type attribute
+    .4byte 0x00000000 # speed loss by turning (?)
+    .4byte 0x00000000 # handling speed based? (also affects flight handling)
+    .4byte 0x00000000 # back axel handling (?)
+    .4byte 0x00000000 # front axel handling (?)
+    .4byte 0x00000000 # drifting radius
+    .4byte 0x00000000 # Drift Rotation (How much your momentum follows you during a drift)
+    .4byte 0x00000000 # initial drift rotation back axel (?)
+    .4byte 0x00000000 # initial drift rotation front axel (?)
+    .4byte 0x00000000 # unknown
+    .4byte 0x00000000 # unknown
+    .4byte 0x00000000 # unknown
+    .4byte 0x00000000 # how long it takes to generate a drift dash
+    .4byte 0x00000000 # air gain multiplier (tricks)
+    .4byte 0x00000000 # air gain multiplier (shortcuts)
+    .4byte 0x00000000 # air gain multiplier (control stick event/QTE)
+    .4byte 0x00020100 # special flags
+    .4byte 0x40000000 # air cost multiplier when charging jump
+    .4byte 0x000186A0 # level 1 max air
+    .4byte 0x00000010 # level 1 passive air drain
+    .4byte 0x000000A6 # level 1 drift air cost
+    .4byte 0x000061A8 # level 1 boost cost
+    .4byte 0x000061A8 # level 1 tornado cost
+    .4byte 0x3E6D097B # level 1 speed gained from a drift dash
+    .4byte 0x3F6D097B # level 1 boost speed
+    .4byte 0x000249F0 # level 2 max air
+    .4byte 0x00000010 # level 2 passive air drain
+    .4byte 0x000000FA # level 2 drift air cost
+    .4byte 0x00007530 # level 2 boost cost
+    .4byte 0x00007530 # level 2 tornado cost
+    .4byte 0x3EBDA12F # level 2 speed gained from a drift dash
+    .4byte 0x3F884BDA # level 2 boost speed
+    .4byte 0x00030D40 # level 3 max air
+    .4byte 0x00000010 # level 3 passive air drain
+    .4byte 0x0000014D # level 3 drift air cost
+    .4byte 0x00009C40 # level 3 boost cost
+    .4byte 0x00009C40 # level 3 tornado cost
+    .4byte 0x3EED097B # level 3 speed gained from a drift dash
+    .4byte 0x3F9425ED # level 3 boost speed
+    .byte 0x04 # shown dash (tempo) stat
+    .byte 0x04 # shown limit (efficiency) stat
+    .byte 0x03 # shown power (combat) stat
+    .byte 0x00 # shown cornering (weight) stat
+    .4byte 0x42F00000
+    .4byte 0x42C80000
+    .4byte 0x3F000000
+    .4byte 0x00000000
+    .4byte 0x00000000
+    .4byte 0x00000000
+    .4byte 0x00000000
+    .4byte 0x00000000
+    .4byte 0x00000000
+    .4byte 0x00000000
+    .4byte 0x00000000
+    .4byte 0x00000000
+    .4byte 0x00000000
+    .4byte 0x00000000
+    .4byte 0x00000000
+    .4byte 0x00000000
+    .4byte 0x00000000
+    .4byte 0x00000000
+    .4byte 0x00000000
+    .4byte 0xBD4CCCCD
+    .4byte 0xBF266666
+    .4byte 0x00000000
+    .4byte 0x00000000
+    .4byte 0x00000000
+    .4byte 0x00000000
+    .4byte 0x00000000
+    .4byte 0x00000000
+    .4byte 0x00000000
+    .4byte 0x00000000
+    .4byte 0x00000000
+    .4byte 0x02000000
+    .4byte 0x02000000
+    .4byte 0x00000000
+    .4byte 0x000A0001
+    .4byte 0x00010000
+    .4byte 0x3F000000
+    .4byte 0x00000000
+    .4byte 0x00000000
+    .4byte 0x00000000
+    .4byte 0x00000000
+    .4byte 0x00000000
+    .4byte 0x00000000
+    .4byte 0x00000000
+    .4byte 0x00000000
+    .4byte 0x00000000
+    .4byte 0x00000000
+    .4byte 0x00000000
+    .4byte 0x00000000
+    .4byte 0x00000000
+    .4byte 0x00000000
+    .4byte 0x00000000
+    .4byte 0x00000000
+    .4byte 0xBD4CCCCD
+    .4byte 0xBF266666
+    .4byte 0x00000000
+    .4byte 0x00000000
+    .4byte 0x00000000
+    .4byte 0x00000000
+    .4byte 0x00000000
+    .4byte 0x00000000
+    .4byte 0x00000000
+    .4byte 0x00000000
+    .4byte 0x00000000
+    .4byte 0x02000000
+    .4byte 0x02000000
+    .4byte 0x3DA3D70A
+    .4byte 0x00280100
+    .4byte 0x02010000
+    .4byte 0xFFF77F7F # Executor
+    .byte 0x00 # gear type
+    .byte 0x1A # model id
+    .2byte 0x012C # ring cost in gear shop
+    .4byte 0x00000000 # unknown
+    .4byte 0xB9CA4587 # acceleration
+    .4byte 0xbc17b426 # top speed (additive)
+    .4byte 0xC1200000 # off road speed
+    .4byte 0x00000000 # speed and handling multiplier
+    .4byte 0x00000000 # weight
+    .4byte 0x00000000 # extra type attribute
+    .4byte 0x00000000 # speed loss by turning (?)
+    .4byte 0x00000000 # handling speed based? (also affects flight handling)
+    .4byte 0x00000000 # back axel handling (?)
+    .4byte 0x00000000 # front axel handling (?)
+    .4byte 0x00000000 # drifting radius
+    .4byte 0x00000000 # Drift Rotation (How much your momentum follows you during a drift)
+    .4byte 0x00000000 # initial drift rotation back axel (?)
+    .4byte 0x00000000 # initial drift rotation front axel (?)
+    .4byte 0x00000000 # unknown
+    .4byte 0x00000000 # unknown
+    .4byte 0x00000000 # unknown
+    .4byte 0x00000000 # how long it takes to generate a drift dash
+    .4byte 0x00000000 # air gain multiplier (tricks)
+    .4byte 0x00000000 # air gain multiplier (shortcuts)
+    .4byte 0x00000000 # air gain multiplier (control stick event/QTE)
+    .4byte 0x00000000 # special flags
+    .4byte 0x40000000 # air cost multiplier when charging jump
+    .4byte 0x000186A0 # level 1 max air
+    .4byte 0x00000010 # level 1 passive air drain
+    .4byte 0x000000A6 # level 1 drift air cost
+    .4byte 0x000061A8 # level 1 boost cost
+    .4byte 0x000061A8 # level 1 tornado cost
+    .4byte 0x3E6D097B # level 1 speed gained from a drift dash
+    .4byte 0x3F6D097B # level 1 boost speed
+    .4byte 0x00000000 # level 2 max air
+    .4byte 0x00000000 # level 2 passive air drain
+    .4byte 0x00000000 # level 2 drift air cost
+    .4byte 0x00000000 # level 2 boost cost
+    .4byte 0x00000000 # level 2 tornado cost
+    .4byte 0x00000000 # level 2 speed gained from a drift dash
+    .4byte 0x00000000 # level 2 boost speed
+    .4byte 0x00030D40 # level 3 max air
+    .4byte 0x00000018 # level 3 passive air drain
+    .4byte 0x0000014D # level 3 drift air cost
+    .4byte 0x00009C40 # level 3 boost cost
+    .4byte 0x00009C40 # level 3 tornado cost
+    .4byte 0x3F0E38E4 # level 3 speed gained from a drift dash
+    .4byte 0x3fa2f685 # level 3 boost speed
+    .byte 0x04 # shown dash (tempo) stat
+    .byte 0x04 # shown limit (efficiency) stat
+    .byte 0x03 # shown power (combat) stat
+    .byte 0x00 # shown cornering (weight) stat
+    .4byte 0x42F00000
+    .4byte 0x42C80000
+    .4byte 0x3e800000 # Main exhaust width (32 float)
+    .4byte 0x3e800000 # Secondary exhaust width (32 float)
+    .4byte 0x3e800000 # Tertiary exhaust width (32 float)
+    .4byte 0x3e800000 # Fourth exhaust width (32 float)
+    .4byte 0x00000000
+    .4byte 0x00000000
+    .4byte 0x00000000 # Main exhaust rotation?
+    .4byte 0x00000000
+    .4byte 0x00000000
+    .4byte 0x00000000 # Secondary exhaust rotation?
+    .4byte 0x00000000
+    .4byte 0x00000000
+    .4byte 0x00000000 # Tertiary exhaust rotation?
+    .4byte 0x00000000
+    .4byte 0x00000000
+    .4byte 0x00000000 # Fourth exhaust rotation?
+    .4byte 0x3e800000 # Main exhaust X offset (32 float) 
+    .4byte 0xbdcccccd # Main exhaust Y offset (32 float)
+    .4byte 0xbf0ccccd # Main exhaust Z offset (32 float)
+    .4byte 0xbe800000 # Secondary exhaust X offset (32 float)
+    .4byte 0xbdcccccd # Secondary exhaust Y offset (32 float)
+    .4byte 0xbf0ccccd # Secondary exhaust Z offset (32 float)
+    .4byte 0x3e800000 # Tertiary exhaust X offset (32 float)
+    .4byte 0xbe4ccccd # Tertiary exhaust Y offset (32 float)
+    .4byte 0xbf0ccccd # Tertiary exhaust Z offset (32 float)
+    .4byte 0xbe800000 # Fourth exhaust X offset (32 float)
+    .4byte 0xbe4ccccd # Fourth exhaust Y offset (32 float)
+    .4byte 0xbf0ccccd # Fourth exhaust Z offset (32 float)
+    .4byte 0x02020202 # Bones to apply trails to (almost always 02)
+    .4byte 0x02020202 # Bones to apply trails to? (almost always 02)
+    .4byte 0x00000000
+    .4byte 0x000A0001
+    .4byte 0x00040000 # Amount of exhaust trails
+    .4byte 0x3e800000 # Main exhaust width during trick (32 float)
+    .4byte 0x3e800000 # Secondary exhaust width during trick (32 float)
+    .4byte 0x3e800000 # Tertiary exhaust width during trick (32 float)
+    .4byte 0x3e800000 # Fourth exhaust width during trick (32 float)
+    .4byte 0x00000000
+    .4byte 0x00000000
+    .4byte 0x00000000 # Main exhaust rotation during tricks??
+    .4byte 0x00000000
+    .4byte 0x00000000
+    .4byte 0x00000000 # Secondary exhaust rotation during tricks??
+    .4byte 0x00000000
+    .4byte 0x00000000
+    .4byte 0x00000000 # Tertiary exhaust rotation during tricks??
+    .4byte 0x00000000
+    .4byte 0x00000000
+    .4byte 0x00000000 # Fourth exhaust rotation during tricks??
+    .4byte 0x3e800000 # Main exhaust X offset during tricks (32 float) 
+    .4byte 0xbdcccccd # Main exhaust Y offset during tricks (32 float)
+    .4byte 0xbf0ccccd # Main exhaust Z offset during tricks (32 float)
+    .4byte 0xbe800000 # Secondary exhaust X offset during tricks (32 float)
+    .4byte 0xbdcccccd # Secondary exhaust Y offset during tricks (32 float)
+    .4byte 0xbf0ccccd # Secondary exhaust Z offset during tricks (32 float)
+    .4byte 0x3e800000 # Tertiary exhaust X offset during tricks (32 float)
+    .4byte 0xbe4ccccd # Tertiary exhaust Y offset during tricks (32 float)
+    .4byte 0xbf0ccccd # Tertiary exhaust Z offset during tricks (32 float)
+    .4byte 0xbe800000 # Fourth exhaust X offset during tricks (32 float)
+    .4byte 0xbe4ccccd # Fourth exhaust Y offset during tricks (32 float)
+    .4byte 0xbf0ccccd # Fourth exhaust Z offset during tricks (32 float)
+    .4byte 0x02020202 # Bones to apply trails to (almost always 02)
+    .4byte 0x02020202 # Bones to apply trails to? (almost always 02)
+    .4byte 0x3DA3D70A # Trail scale during tricks?
+    .4byte 0x00280100
+    .4byte 0x02040000 # Exhaust mode (?) followed by amount of trails during tricks
+    .4byte 0xFFFFFFFF # SkillLink
+    .byte 0x00 # gear type
+    .byte 0x1A # model id
+    .2byte 0x012C # ring cost in gear shop
+    .4byte 0x00000000 # unknown
+    .4byte 0xB9CA4587 # acceleration
+    .4byte 0xbc17b426 # top speed (additive)
+    .4byte 0xC1200000 # off road speed
+    .4byte 0x00000000 # speed and handling multiplier
+    .4byte 0x00000000 # weight
+    .4byte 0x00000000 # extra type attribute
+    .4byte 0x00000000 # speed loss by turning (?)
+    .4byte 0x00000000 # handling speed based? (also affects flight handling)
+    .4byte 0x00000000 # back axel handling (?)
+    .4byte 0x00000000 # front axel handling (?)
+    .4byte 0x00000000 # drifting radius
+    .4byte 0x00000000 # Drift Rotation (How much your momentum follows you during a drift)
+    .4byte 0x00000000 # initial drift rotation back axel (?)
+    .4byte 0x00000000 # initial drift rotation front axel (?)
+    .4byte 0x00000000 # unknown
+    .4byte 0x00000000 # unknown
+    .4byte 0x00000000 # unknown
+    .4byte 0x00000000 # how long it takes to generate a drift dash
+    .4byte 0x00000000 # air gain multiplier (tricks)
+    .4byte 0x00000000 # air gain multiplier (shortcuts)
+    .4byte 0x00000000 # air gain multiplier (control stick event/QTE)
+    .4byte 0x00000000 # special flags
+    .4byte 0x40000000 # air cost multiplier when charging jump
+    .4byte 0x000186A0 # level 1 max air
+    .4byte 0x00000010 # level 1 passive air drain
+    .4byte 0x000000A6 # level 1 drift air cost
+    .4byte 0x00003A98 # level 1 boost cost
+    .4byte 0x000061A8 # level 1 tornado cost
+    .4byte 0x3EA5ED09 # level 1 speed gained from a drift dash
+    .4byte 0x3f612f68 # level 1 boost speed
+    .4byte 0x000249F0 # level 2 max air
+    .4byte 0x00000010 # level 2 passive air drain
+    .4byte 0x000000FA # level 2 drift air cost
+    .4byte 0x00004E20 # level 2 boost cost
+    .4byte 0x00007530 # level 2 tornado cost
+    .4byte 0x3EED097B # level 2 speed gained from a drift dash
+    .4byte 0x3f825ed1 # level 2 boost speed
+    .4byte 0x00030D40 # level 3 max air
+    .4byte 0x00000010 # level 3 passive air drain
+    .4byte 0x0000014D # level 3 drift air cost
+    .4byte 0x00007530 # level 3 boost cost
+    .4byte 0x00009C40 # level 3 tornado cost
+    .4byte 0x3F0E38E4 # level 3 speed gained from a drift dash
+    .4byte 0x3f8e38e4 # level 3 boost speed
+    .byte 0x00 # shown dash (tempo) stat
+    .byte 0x03 # shown limit (efficiency) stat
+    .byte 0x02 # shown power (combat) stat
+    .byte 0xFB # shown cornering (weight) stat
+    .4byte 0x42F00000
+    .4byte 0x42C80000
+    .4byte 0x3f19999a # Main exhaust width (32 float)
+    .4byte 0x00000000 # Secondary exhaust width (32 float)
+    .4byte 0x00000000 # Tertiary exhaust width (32 float)
+    .4byte 0x00000000 # Fourth exhaust width (32 float)
+    .4byte 0x00000000
+    .4byte 0x00000000
+    .4byte 0x00000000 # Main exhaust rotation?
+    .4byte 0x00000000
+    .4byte 0x00000000
+    .4byte 0x00000000 # Secondary exhaust rotation?
+    .4byte 0x00000000
+    .4byte 0x00000000
+    .4byte 0x00000000 # Tertiary exhaust rotation?
+    .4byte 0x00000000
+    .4byte 0x00000000
+    .4byte 0x00000000 # Fourth exhaust rotation?
+    .4byte 0x00000000 # Main exhaust X offset (32 float) 
+    .4byte 0xbe0f5c29 # Main exhaust Y offset (32 float)
+    .4byte 0xbf19999a # Main exhaust Z offset (32 float)
+    .4byte 0x00000000 # Secondary exhaust X offset (32 float)
+    .4byte 0x00000000 # Secondary exhaust Y offset (32 float)
+    .4byte 0x00000000 # Secondary exhaust Z offset (32 float)
+    .4byte 0x00000000 # Tertiary exhaust X offset (32 float)
+    .4byte 0x00000000 # Tertiary exhaust Y offset (32 float)
+    .4byte 0xbf000000 # Tertiary exhaust Z offset (32 float)
+    .4byte 0x00000000 # Fourth exhaust X offset (32 float)
+    .4byte 0x00000000 # Fourth exhaust Y offset (32 float)
+    .4byte 0x00000000 # Fourth exhaust Z offset (32 float)
+    .4byte 0x02020200 # Bones to apply trails to (almost always 02)
+    .4byte 0x02020200 # Bones to apply trails to? (almost always 02)
+    .4byte 0x00000000
+    .4byte 0x000A0001
+    .4byte 0x00010000 # Amount of exhaust trails
+    .4byte 0x3f19999a # Main exhaust width during trick (32 float)
+    .4byte 0x00000000 # Secondary exhaust width during trick (32 float)
+    .4byte 0x00000000 # Tertiary exhaust width during trick (32 float)
+    .4byte 0x00000000 # Fourth exhaust width during trick (32 float)
+    .4byte 0x00000000
+    .4byte 0x00000000
+    .4byte 0x00000000 # Main exhaust rotation during tricks??
+    .4byte 0x00000000
+    .4byte 0x00000000
+    .4byte 0x00000000 # Secondary exhaust rotation during tricks??
+    .4byte 0x00000000
+    .4byte 0x00000000
+    .4byte 0x00000000 # Tertiary exhaust rotation during tricks??
+    .4byte 0x00000000
+    .4byte 0x00000000
+    .4byte 0x00000000 # Fourth exhaust rotation during tricks??
+    .4byte 0x00000000 # Main exhaust X offset during tricks (32 float) 
+    .4byte 0xbe0f5c29 # Main exhaust Y offset during tricks (32 float)
+    .4byte 0xbf19999a # Main exhaust Z offset during tricks (32 float)
+    .4byte 0x00000000 # Secondary exhaust X offset during tricks (32 float)
+    .4byte 0x00000000 # Secondary exhaust Y offset during tricks (32 float)
+    .4byte 0x00000000 # Secondary exhaust Z offset during tricks (32 float)
+    .4byte 0x00000000 # Tertiary exhaust X offset during tricks (32 float)
+    .4byte 0x00000000 # Tertiary exhaust Y offset during tricks (32 float)
+    .4byte 0x00000000 # Tertiary exhaust Z offset during tricks (32 float)
+    .4byte 0x00000000 # Fourth exhaust X offset during tricks (32 float)
+    .4byte 0x00000000 # Fourth exhaust Y offset during tricks (32 float)
+    .4byte 0x00000000 # Fourth exhaust Z offset during tricks (32 float)
+    .4byte 0x02020202 # Bones to apply trails to (almost always 02)
+    .4byte 0x02020202 # Bones to apply trails to? (almost always 02)
+    .4byte 0x3DA3D70A # Trail scale during tricks?
+    .4byte 0x00280100
+    .4byte 0x02010000 # Exhaust mode (?) followed by amount of trails during tricks
 .global gsParFullParam_MagicCarpet
 gsParFullParam_MagicCarpet:
     # 0x1EEC90

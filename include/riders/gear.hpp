@@ -19,7 +19,8 @@ namespace ExtremeGear{
 		Gambler, PowerGear, OpaOpa, TheCrazy, Berserker, ERider, AirTank, HeavyBike, Destroyer, Omnipotence, CoverS, CoverF,
 		CoverP, HangOn, SuperHangOn, Darkness, Grinder, AdvantageS, AdvantageF, AdvantageP, Cannonball,
 
-		GunGear, Airship, Greed, 
+		GunGear, Airship, Greed, GShot, Wanted, ShootingStar, WindStar, RoadStar, Archangel, ReserveTank, WarpDrive,
+		Challenger, GunBike, Executor, SkillLink, 
 
 		TotalGearAmount,
 		Invalid = 0xFF

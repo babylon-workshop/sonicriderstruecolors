@@ -13,11 +13,11 @@ constexpr m2darray<u32, Character::Total, 2> CharacterDefaultGearData = {{
     {0x008A, 0x0004},   // Jet
     {0x008B, 0x0005},   // Storm
     {0x008C, 0x0006},   // Wave
-    {0x0, 0x0},        // Eggman placeholder
+    {0x0108, 0x0000},        // Eggman placeholder
     {0x008E, 0x0008},   // Cream
     {0x008D, 0x0007},   // Rouge
     {0x00CE, 0x00FB},   // Shadow
-    {0x0, 0x0},         // Super Sonic placeholder
+    {0x0086, 0x0000},         // Super Sonic placeholder
     {0x00A6, 0x0020},   // NiGHTS
     {0x00A7, 0x0021},   // Aiai
     {0x00AA, 0x0024},   // Ulala

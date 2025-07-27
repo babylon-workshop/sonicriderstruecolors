@@ -1,18 +1,29 @@
 #include "newgearselect.hpp"
 
 // The amount of custom Gears we have for each Gear Type:
-constexpr u8 customBoardAmount = 3;
-constexpr u8 customBikeAmount = 1;
+constexpr u8 customBoardAmount = 13;
+constexpr u8 customBikeAmount = 2;
 constexpr u8 customSkateAmount = 1;
 
 constexpr std::array<u8, customBoardAmount> newBoardIDs = { // added boards
     ExtremeGear::GunGear,
     ExtremeGear::Airship,
     ExtremeGear::Greed,
+    ExtremeGear::GShot,
+    ExtremeGear::Wanted,
+    ExtremeGear::ShootingStar,
+    ExtremeGear::WindStar,
+    ExtremeGear::RoadStar,
+    ExtremeGear::Archangel,
+    ExtremeGear::Challenger,
+    ExtremeGear::Executor,
+    ExtremeGear::SkillLink,
+    ExtremeGear::WarpDrive,
     };
 
 constexpr std::array<u8, customBikeAmount> newBikeIDs = { // added bikes
-    0xFF,
+    ExtremeGear::GunBike,
+    ExtremeGear::ReserveTank,
     };
 
 constexpr std::array<u8, customSkateAmount> newSkateIDs = { // added skates
@@ -73,8 +84,7 @@ ASMUsed u8 CustomGearSelect_Forward(u8 currentGearID) {
             newGearID = newBoardIDs[0];
             break;
         case ExtremeGear::SuperHangOn: // Last OG bike. 
-            // newGearID = newBikeIDs[0];
-            newGearID = ExtremeGear::Darkness; // SYB: Delete this and uncomment the line above once you add a custom bike!
+            newGearID = newBikeIDs[0];
             break;
         case ExtremeGear::Cannonball: // Last OG skate.
             // newGearID = newSkateIDs[0];
@@ -138,8 +148,7 @@ ASMUsed u8 CustomGearSelect_Backward(u8 currentGearID) {
 
     switch (currentGearID) {
         case ExtremeGear::Darkness: // First OG skate.
-            // newGearID = newBikeIDs[customBikeAmount - 1];
-            newGearID = ExtremeGear::SuperHangOn; // SYB: Delete this and uncomment the line above once you add a custom bike!
+            newGearID = newBikeIDs[customBikeAmount - 1];
             break;
         case ExtremeGear::ERider: // First OG bike.
             newGearID = newBoardIDs[customBoardAmount - 1];
