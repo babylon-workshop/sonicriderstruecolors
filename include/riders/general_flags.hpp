@@ -13,7 +13,8 @@ enum class MovementFlags : u32{
 	boosting 				= 1<<10,
 	railLink 				= 1<<16,
 	braking 				= 1<<8,
-	TurbulenceLRExit		= 1<<18
+	TurbulenceLRExit		= 1<<18,
+	jumpCharge				= 1<<12
 };
 ENUM_FLAG_OPERATORS(MovementFlags) // NOLINT(cppcoreguidelines-pro-type-reinterpret-cast, readability-identifier-length, *-type-traits)
 

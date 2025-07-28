@@ -55,6 +55,7 @@
 
 #include "gears/airship.hpp"
 #include "gears/greed.hpp"
+#include "gears/gshot.hpp"
 
 // ASMDefined void Player_Autopilot(Player *player); // _Main/text.s ; C240F4D8
 
@@ -125,5 +126,6 @@ ASMUsed void PlayerHandler(Player &player) {
 
     Player_Airship(player);
     Player_Greed(player);
+    Player_GShot(player);
 	// Player_HandleSpeedShoes(player); // tap to speed shoe
 }

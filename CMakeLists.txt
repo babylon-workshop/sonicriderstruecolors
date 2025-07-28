@@ -202,6 +202,7 @@ set(DOL_SOURCES     # main
 		src/cosmetics/player/defaultgearrotation.cpp
 		src/gears/airship.cpp
 		src/gears/greed.cpp
+		src/gears/gshot.cpp
 ) # main
 
 set(STANDALONE_HEADERS # This is only here to make sure that headers actually include the things it needs, by "compiling" them standalone.

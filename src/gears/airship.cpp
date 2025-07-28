@@ -5,6 +5,7 @@
 std::array<AirshipInfo, MaxPlayerCount> PlayerAirshipInfo;
 
 void Player_Airship(Player &player) {
+    if (player.extremeGear != ExtremeGear::Airship) {return;}
 
     AirshipInfo *AirshipInfo = &PlayerAirshipInfo[player.index];
 
