@@ -13,4 +13,4 @@ struct WindStarInfo {
 
 extern std::array<WindStarInfo, MaxPlayerCount> PlayerWindStarInfo;
 
-void Player_WindStar(Player *player);
+void Player_WindStar(Player &player);

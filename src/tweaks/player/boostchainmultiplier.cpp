@@ -75,6 +75,16 @@ ASMUsed void Player_BoostChainMultiplier(Player *player) {
     			bcm += jcbcCheck * (static_cast<f32>(player->rings - 60) / 40.0f);
     		}
         
+        case RoadStar:
+            bcm += static_cast<f32>(player->rings) / 666.67f;
+            break;
+
+        case Archangel:
+            if (player->level == 2) {
+                bcm += 0.07f;
+            }
+            break;
+
 		default:
 			break;
     }

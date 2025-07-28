@@ -18,6 +18,7 @@
 #include "gears/supermetal.hpp"
 #include "gears/airship.hpp"
 #include "gears/projektred.hpp"
+#include "gears/windstar.hpp"
 
 ASMDefined std::array<char, 4> bss_C24D91DC; /*asm*/
 
@@ -390,6 +391,15 @@ ASMUsed u32 Player_ExhaustTrailColors(Player &Player) {
 				}
 				else if (Player.level == 2) { // Devil Red
 					color = 0xFF0000FF;
+				}
+				break;
+			}
+
+			case WindStar: {
+				WindStarInfo *WindStarInfo = &PlayerWindStarInfo[Player.index];
+
+				if (WindStarInfo->tailwindActive == true) {
+					color = 0x00FF00FF;
 				}
 				break;
 			}

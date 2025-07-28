@@ -36,7 +36,7 @@ void PlayVanillaStageMusic();
 [[nodiscard]] u32 GetMusicRandomizeCountInGame();
 
 constexpr auto STAGE_MUSIC_COUNT = 16;
-constexpr auto MENU_MUSIC_COUNT = 2;
+constexpr auto MENU_MUSIC_COUNT = 3;
 
 constexpr std::array<const char *, STAGE_MUSIC_COUNT> stageMusic = {
 		"METALC.ADX",
@@ -59,7 +59,8 @@ constexpr std::array<const char *, STAGE_MUSIC_COUNT> stageMusic = {
 
 constexpr std::array<const char *, MENU_MUSIC_COUNT> menuMusic = {
 		"HEALTH.ADX",
-		"NIN.ADX"
+		"NIN.ADX",
+		"LET_YOU_DOWN.ADX"
 };
 
 constexpr const char *easterEgg = "7C.ADX";
