@@ -3,6 +3,7 @@
 #include "lib/stdlib.hpp"
 #include "riders/gamemode.hpp"
 #include "gears/hangon.hpp"
+#include "gears/skilllink.hpp"
 
 ASMUsed ItemID AntiItemCampHandler(Player &player, ItemID item) {
 	using enum ItemID;
@@ -16,6 +17,43 @@ ASMUsed ItemID AntiItemCampHandler(Player &player, ItemID item) {
 	if ((player.extremeGear == ExtremeGear::SuperHangOn && player.gearSpecificFlags[SuperHangOn::Level4]) && player.last_itemBox_random) {
 		item = SpeedShoes;
 	}
+
+	if (player.extremeGear == ExtremeGear::SkillLink) {
+                SkillLinkInfo *SkLInfo = &PlayerSkillLinkInfo[player.index];
+
+                if (item == SkLInfo->prevItem) {
+                    player.speed += pSpeed(100);
+                    if(!player.aiControl) PlayAudioFromDAT(Sound::ComposeSound(Sound::ID::IDKSFX, 0x3B)); //Dash panel SFX
+                }
+                SkLInfo->prevItem = item;
+
+				if (player.rings > 10) {
+					player.rings -= 10;
+				}
+				else {
+					player.rings = 0;
+				}
+
+				switch (item) {
+					case FiveRings:
+						item = TenRings;
+						break;
+					case TenRings:
+						item = TwentyRings;
+						break;
+					case TwentyRings:
+						item = ThirtyRings;
+						break;
+					case ThirtyAir:
+						item = FiftyAir;
+						break;
+					case FiftyAir:
+						item = HundredAir;
+						break;
+					default:
+						break;
+				}
+            }
 
 	if (const auto &exloadID = player.gearExload().exLoadID;
 		exloadID == EXLoad::TheBeast

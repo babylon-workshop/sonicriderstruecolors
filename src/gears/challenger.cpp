@@ -80,7 +80,8 @@ void Player_Challenger_Roll(Player &player) {
 }
 
 void Player_Challenger(Player &player) {
-    
+    if (player.extremeGear != ExtremeGear::Challenger) {return;}
+
     ChallengerInfo *ChlInfo = &PlayerChallengerInfo[player.index];
 
     // Roll Type and Level if necessary

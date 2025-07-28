@@ -64,6 +64,7 @@
 #include "gears/windstar.hpp"
 #include "gears/warpdrive.hpp"
 #include "gears/challenger.hpp"
+#include "gears/skilllink.hpp"
 
 // ASMDefined void Player_Autopilot(Player *player); // _Main/text.s ; C240F4D8
 
@@ -143,5 +144,6 @@ ASMUsed void PlayerHandler(Player &player) {
     Player_WindStar(player);
     Player_WarpDrive(player);
     Player_Challenger(player);
+    Player_SkillLink(player);
 	// Player_HandleSpeedShoes(player); // tap to speed shoe
 }
