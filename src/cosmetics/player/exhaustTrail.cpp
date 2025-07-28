@@ -17,6 +17,7 @@
 #include "gears/advantagep.hpp"
 #include "gears/supermetal.hpp"
 #include "gears/airship.hpp"
+#include "gears/projektred.hpp"
 
 ASMDefined std::array<char, 4> bss_C24D91DC; /*asm*/
 
@@ -368,6 +369,26 @@ ASMUsed u32 Player_ExhaustTrailColors(Player &Player) {
 				AirshipInfo *AirshipInfo = &PlayerAirshipInfo[Player.index];
 
 				if (AirshipInfo->airdashCooldown != 0) {
+					color = 0xFF0000FF;
+				}
+				break;
+			}
+
+			case Executor: {
+				ProjektRedInfo *RedInfo = &PlayerProjektRedInfo[Player.index];
+				if (RedInfo->redeployState == true) {
+					color = 0xFF0000FF;
+				}
+				else {
+					color = 0xFFFFFFFF;
+				}
+			}
+
+			case Archangel: {
+				if (Player.level == 0) { // Angel Cyan
+					color = 0x00FFFFFF;
+				}
+				else if (Player.level == 2) { // Devil Red
 					color = 0xFF0000FF;
 				}
 				break;

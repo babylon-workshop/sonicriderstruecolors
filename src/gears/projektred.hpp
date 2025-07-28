@@ -14,4 +14,4 @@ struct ProjektRedInfo {
 
 extern std::array<ProjektRedInfo, MaxPlayerCount> PlayerProjektRedInfo;
 
-void Player_ProjektRed(Player *player);
+void Player_ProjektRed(Player &player);

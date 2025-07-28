@@ -13,7 +13,7 @@ struct ArchAngelInfo {
 
 extern std::array<ArchAngelInfo, MaxPlayerCount> PlayerArchAngelInfo;
 
-void Player_ArchAngel(Player *player);
+void Player_ArchAngel(Player &player);
 
 ASMDefined void func_Particle_Task();
 ASMDefined void* gpsTexList_Particle;
