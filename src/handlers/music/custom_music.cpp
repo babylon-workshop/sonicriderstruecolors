@@ -20,9 +20,9 @@ bool CustomMusic_SkipSHOHOMusic;
     return CurrentGameMode == BattleMode ? MusicMode::Battle : MusicMode::Stage;
 }
 
-[[nodiscard]] u32 GetMusicRandomizeCountInGame() {
-    return CurrentGameMode == BattleMode ? BATTLE_MUSIC_COUNT : 4;
-}
+// [[nodiscard]] u32 GetMusicRandomizeCountInGame() {
+//     return CurrentGameMode == BattleMode ? BATTLE_MUSIC_COUNT : 4;
+// }
 
 USED void CustomMusicRandomizer(const MusicMode mode) {
     u32 songID = bss_CustomMusicID;
@@ -36,24 +36,8 @@ USED void CustomMusicRandomizer(const MusicMode mode) {
                 if (isVanillaPlaylist) {
                     songID = 4; // vanilla
                 } else {
-                    songID = lbl_RNG_Number(4);
+                    songID = 0;
                     for (auto &input: GameControllers) {
-                        if (input.holdFaceButtons.hasAny(Buttons::DPadUp)) {
-                            songID = 3;
-                            break;
-                        }
-                        if (input.holdFaceButtons.hasAny(Buttons::DPadDown)) {
-                            songID = 2;
-                            break;
-                        }
-                        if (input.holdFaceButtons.hasAny(Buttons::DPadLeft)) {
-                            songID = 1;
-                            break;
-                        }
-                        if (input.holdFaceButtons.hasAny(Buttons::DPadRight)) {
-                            songID = 0;
-                            break;
-                        }
                         if (input.holdFaceButtons.hasAny(Buttons::A)) {
                             songID = 4;
                             break;
@@ -115,14 +99,14 @@ USED void CustomMusicRandomizer(const MusicMode mode) {
             }
             break;
         case MusicMode::RaceEnd: // race end music mode
-            if (!isVanillaPlaylist) {
-                songID = lbl_RNG_Number(RACE_END_MUSIC_COUNT);
-            }
+            // if (!isVanillaPlaylist) {
+            //     songID = lbl_RNG_Number(RACE_END_MUSIC_COUNT);
+            // }
             break;
         case MusicMode::Battle: // battle music mode
-            if (!isVanillaPlaylist) {
-                songID = lbl_RNG_Number(BATTLE_MUSIC_COUNT);
-            }
+            // if (!isVanillaPlaylist) {
+            //     songID = lbl_RNG_Number(BATTLE_MUSIC_COUNT);
+            // }
             break;
         default:
             break;
@@ -171,7 +155,8 @@ USED bool CustomMusicPlayer(const MusicMode mode) {
             }
 
             // play custom stage music
-            PlayADX(gpasAdxtHandle_Bgm, stageMusic[(CurrentStage - 1) * 4 + songID]);
+            // PlayADX(gpasAdxtHandle_Bgm, stageMusic[(CurrentStage - 1) * 4 + songID]);
+            PlayADX(gpasAdxtHandle_Bgm, stageMusic[(CurrentStage - 1)]);
             break;
         case MusicMode::Menu: // play menu music
             if (songID >= MENU_MUSIC_COUNT || isVanillaPlaylist) {
@@ -180,17 +165,9 @@ USED bool CustomMusicPlayer(const MusicMode mode) {
             PlayADX(gpasAdxtHandle_Bgm, menuMusic[songID]);
             break;
         case MusicMode::RaceEnd: // play race end music
-            if (songID >= RACE_END_MUSIC_COUNT || isVanillaPlaylist) {
-                return false;
-            }
-            PlayADX(gpasAdxtHandle_Bgm, raceEndMusic[songID]);
-            break;
+            return false;
         case MusicMode::Battle: // play battle music
-            if (songID >= BATTLE_MUSIC_COUNT || isVanillaPlaylist) {
-                return false;
-            }
-            PlayADX(gpasAdxtHandle_Bgm, battleMusic[songID]);
-            break;
+            return false;
         default:
             break;
     }
@@ -231,8 +208,6 @@ void CustomMusicChanger_OnPauseMenu() {
                 PlayVanillaStageMusic();
             }
         } else {
-            if (songID >= BATTLE_MUSIC_COUNT)
-                songID = 0;
             bss_CustomMusicID = songID;
             CustomMusicPlayer(MusicMode::Battle);
         }
