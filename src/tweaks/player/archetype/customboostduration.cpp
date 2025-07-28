@@ -21,6 +21,7 @@ constexpr m2darray<u8, std::to_underlying(CharacterArchetype::Count), 3> Archety
 		{0x00, 0x00, 0x00},// Windcatcher
 		{0x2D, 0x2D, 0x0A},// Turning (WIP new combat)
 		{0x00, 0x00, 0x00},// Mechanic
+		{0x00, 0x00, 0x00},// Collector
 }};
 
 ASMUsed u32 CustomBoostDuration(Player *player, u32 currentBoostDuration) {

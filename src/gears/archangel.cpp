@@ -24,7 +24,6 @@ void Player_CreateArchAngelParticles(Player &player) {
 }
 
 void Player_ArchAngel_Detransform(Player &player) {
-
     ArchAngelInfo *ArAInfo = &PlayerArchAngelInfo[player.index];
 
     ArAInfo->isTransformed = false;
@@ -39,6 +38,8 @@ void Player_ArchAngel_Detransform(Player &player) {
 }
 
 void Player_ArchAngel(Player &player) {
+    if (player.extremeGear != ExtremeGear::Archangel) {return;}
+
     ArchAngelInfo *ArAInfo = &PlayerArchAngelInfo[player.index];
 
 	if (player.input->toggleFaceButtons & Buttons::DPadUp) {

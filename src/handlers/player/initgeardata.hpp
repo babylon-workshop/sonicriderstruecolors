@@ -76,4 +76,5 @@ constexpr std::array<f32, std::to_underlying(CharacterArchetype::Count)> Archety
         pSpeed(0), // Windcatcher
         pSpeed(0), // Turning
         pSpeed(0), // Mechanic
+		pSpeed(0), // Collector
 };

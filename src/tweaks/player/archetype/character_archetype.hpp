@@ -13,7 +13,7 @@ constexpr std::array<CharacterArchetype, Character::Total> AllCharacterArchetype
 		CharacterArchetype::LateBooster, // wave
 		CharacterArchetype::AllRounder, // eggman
 		CharacterArchetype::AllRounder, // cream
-		CharacterArchetype::Boost, // rouge
+		CharacterArchetype::Collector, // rouge
 		CharacterArchetype::Combat, // shadow
 		CharacterArchetype::SuperSonic, // super sonic
 		CharacterArchetype::TopSpeed, // nights
@@ -22,10 +22,10 @@ constexpr std::array<CharacterArchetype, Character::Total> AllCharacterArchetype
 		CharacterArchetype::NoType, // e10g
 		CharacterArchetype::Drift, // e10b/e10r
 		CharacterArchetype::Trickster, // silver
-		CharacterArchetype::Boost, // metal sonic
+		CharacterArchetype::Collector, // metal sonic
 		CharacterArchetype::AllRounder, // emerl
 		CharacterArchetype::Trickster, // blaze
-		CharacterArchetype::Boost, // chaos
+		CharacterArchetype::Collector, // chaos
 		CharacterArchetype::Trickster, // tikal
 };
 

@@ -67,5 +67,6 @@ enum class CharacterArchetype : u8{
 	Windcatcher,
 	Turning,
 	Mechanic,
+	Collector,
 	Count,
 };
