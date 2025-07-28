@@ -19,7 +19,7 @@ struct ReserveTankInfo {
 
 extern std::array<ReserveTankInfo, MaxPlayerCount> PlayerReserveTankInfo;
 
-void Player_ReserveTank(Player *player);
+void Player_ReserveTank(Player &player);
 
 ASMDefined void func_Particle_Task();
 ASMDefined void* gpsTexList_Particle;
