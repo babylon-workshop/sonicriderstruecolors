@@ -241,9 +241,22 @@ constexpr std::array<u16, 7> ExtraDefaultGearTextID = {
         522, // variable character, add new characters' IDs before this
 };
 
-constexpr std::array<u16, 2> NewGearTextID = {
+constexpr std::array<u16, 15> NewGearTextID = {
         767, // G.U.N. Gear
-        767, // OllieKingGear
+        778, // Airship
+        791, // Greed
+        779, // GShot
+        780, // Wanted
+        781, // Shooting Star
+        782, // Wind Star
+        783, // Road Star
+        784, // Archangel
+        785, // Reserve Tank
+        787, // Warp Drive
+        788, // Challenger
+        789, // G.U.N. Bike
+        790, // Executor
+        792, // Skill Link
 };
 
 std::array<s16, MaxControllerCount> gCSSInformationTextYOffsets;
@@ -390,9 +403,9 @@ ASMUsed void GraphicalObjectHandler_CSSInformationText(GraphicalObject *gobject)
                     if (player->hasCharacterExload() && exLoads.archetype() != CharacterArchetype::NoEXLoad &&
                         CheckIfEXLoadCanBeApplied(*player, exLoads)) {
                         text = exLoads.archetype();
-                        if (exLoads.exLoadID == EXLoad::Selkadoom) {
-                            text = CharacterArchetype{3};
-                        } // Special version of combat text
+                        // if (exLoads.exLoadID == EXLoad::Selkadoom) {
+                        //     text = CharacterArchetype{3};
+                        // } // Special version of combat text
                     } else if (player->character == Character::Emerl) {
                         text = CharacterArchetype{9};
                     }
