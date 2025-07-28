@@ -19,6 +19,7 @@
 #include "gears/airship.hpp"
 #include "gears/projektred.hpp"
 #include "gears/windstar.hpp"
+#include "gears/warpdrive.hpp"
 
 ASMDefined std::array<char, 4> bss_C24D91DC; /*asm*/
 
@@ -402,6 +403,17 @@ ASMUsed u32 Player_ExhaustTrailColors(Player &Player) {
 					color = 0x00FF00FF;
 				}
 				break;
+			}
+
+			case WarpDrive: {
+				WarpDriveInfo *WarpDriveInfo = &PlayerWarpDriveInfo[Player.index];
+				if (Player.slipstream == true) {
+					color = 0xFF4800FF;
+				}
+				if (WarpDriveInfo->isTeleportChargeActive == true) {
+					lbl_RainbowTrail(Player);
+					color = Player.exhaustTrailColor;
+				}
 			}
 
 			default:

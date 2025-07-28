@@ -16,4 +16,4 @@ struct WarpDriveInfo {
 
 extern std::array<WarpDriveInfo, MaxPlayerCount> PlayerWarpDriveInfo;
 
-void Player_WarpDrive(Player *player);
+void Player_WarpDrive(Player &player);

@@ -62,6 +62,7 @@
 #include "gears/archangel.hpp"
 #include "mechanics/tricklevelling.hpp"
 #include "gears/windstar.hpp"
+#include "gears/warpdrive.hpp"
 
 // ASMDefined void Player_Autopilot(Player *player); // _Main/text.s ; C240F4D8
 
@@ -139,5 +140,6 @@ ASMUsed void PlayerHandler(Player &player) {
     Player_ArchAngel(player);
     Player_TrickLevelling(player);
     Player_WindStar(player);
+    Player_WarpDrive(player);
 	// Player_HandleSpeedShoes(player); // tap to speed shoe
 }

@@ -211,6 +211,7 @@ set(DOL_SOURCES     # main
 		src/tweaks/player/archetype/collectorarchetype.cpp
 		src/mechanics/tricklevelling.cpp
 		src/gears/windstar.cpp
+		src/gears/warpdrive.cpp
 ) # main
 
 set(STANDALONE_HEADERS # This is only here to make sure that headers actually include the things it needs, by "compiling" them standalone.
