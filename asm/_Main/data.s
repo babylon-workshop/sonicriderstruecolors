@@ -26877,7 +26877,7 @@ Gears:
     .4byte 0x3DA3D70A
     .4byte 0x00280100
     .4byte 0x02010000
-    .4byte 0xFFFFFFFF # Warp Drive
+    .4byte 0x00000000 # Warp Drive
     .byte 0x00 # gear type
     .byte 0x21 # model id
     .2byte 0x0000 # ring cost in gear shop

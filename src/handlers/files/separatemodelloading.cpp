@@ -109,6 +109,8 @@ std::bitset<MaxPlayerCount> IsSeparateBoardModelActive;
                 switch (player.extremeGear) {
                     using namespace ExtremeGear;
                     case ERider ... SuperHangOn:
+                    case ReserveTank:
+                    case GunBike:
                         break;
                     default:
                         // anything but the bikes use eggman's replica gear, egg meister
@@ -155,8 +157,14 @@ std::bitset<MaxPlayerCount> IsSeparateBoardModelActive;
  * @return true if separate Eggmeister textures are needed, otherwise false
  */
 [[nodiscard]] bool PlayerIsEggmeister(const Player &player) {
-    return player.character == Character::Eggman &&
-    (player.extremeGear < ExtremeGear::ERider || player.extremeGear > ExtremeGear::SuperHangOn);
+    bool EggmeisterState = (player.character == Character::Eggman &&
+    (player.extremeGear < ExtremeGear::ERider || player.extremeGear > ExtremeGear::SuperHangOn));
+
+    if (player.extremeGear == ExtremeGear::ReserveTank || player.extremeGear == ExtremeGear::GunBike) {
+        EggmeisterState = false;
+    }
+
+    return EggmeisterState;
 }
 
 /**
@@ -174,7 +182,46 @@ std::bitset<MaxPlayerCount> IsSeparateBoardModelActive;
     if (gearID > ExtremeGear::ERider) {
         gearID -= ExtremeGear::BIKE_COUNT; // subtract all bikes
     }
-    if (gearID > 30) gearID = 30; // REPLACE WHEN NEW GEARS HAVE PROPER EGGMEISTER SUPPORT
+
+    switch (player.extremeGear) {
+        case ExtremeGear::Airship:
+            gearID = ExtremeGear::Hovercraft;
+            break;
+        case ExtremeGear::Greed:
+            gearID = ExtremeGear::Accelerator;
+            break;
+        case ExtremeGear::GShot:
+            gearID = ExtremeGear::MagicCarpet;
+            break;
+        case ExtremeGear::Wanted:
+            gearID = ExtremeGear::Gambler;
+            break;
+        case ExtremeGear::ShootingStar:
+            gearID = ExtremeGear::LightBoard;
+            break;
+        case ExtremeGear::WindStar:
+            gearID = ExtremeGear::SlideBooster;
+            break;
+        case ExtremeGear::RoadStar:
+            gearID = ExtremeGear::Gambler;
+            break;
+        case ExtremeGear::Archangel:
+            gearID = ExtremeGear::PowerfulGear;
+            break;
+        case ExtremeGear::WarpDrive:
+            gearID = ExtremeGear::HighBooster;
+            break;
+        case ExtremeGear::Challenger:
+            gearID = ExtremeGear::TurboStar;
+            break;
+        case ExtremeGear::SkillLink:
+            gearID = ExtremeGear::Fastest;
+            break;
+        default:
+            break;
+    }
+
+    // if (gearID > 30) gearID = 30; // REPLACE WHEN NEW GEARS HAVE PROPER EGGMEISTER SUPPORT
     return gearID;
 }
 
@@ -207,7 +254,7 @@ std::bitset<MaxPlayerCount> IsSeparateBoardModelActive;
  * @return The correct Eggmeister texture archive filename.
  */
 [[nodiscard]] std::string GetEggmeisterTextureArchiveFilename(const Player &player) {
-    if (player.extremeGear >= ExtremeGear::GunGear) {
+    if (player.extremeGear == ExtremeGear::GunGear) {
         return "PETX";
     }
 

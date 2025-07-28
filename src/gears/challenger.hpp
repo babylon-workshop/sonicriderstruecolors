@@ -18,8 +18,8 @@ struct ChallengerInfo {
 
 extern std::array<ChallengerInfo, MaxPlayerCount> PlayerChallengerInfo;
 
-void Player_Challenger(Player *player);
-void Player_CreateChallengerParticles(Player *player);
+void Player_Challenger(Player &player);
+void Player_CreateChallengerParticles(Player &player);
 
 ASMDefined void func_Particle_Task();
 ASMDefined void* gpsTexList_Particle;
