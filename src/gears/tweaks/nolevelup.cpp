@@ -11,6 +11,13 @@ ASMUsed SpecialFlags Player_NonLevelupGears(Player *player, SpecialFlags special
         player->extremeGear == ExtremeGear::CoverP ||
         player->extremeGear == ExtremeGear::GunGear ||
         player->extremeGear == ExtremeGear::Greed ||
+        player->extremeGear == ExtremeGear::Wanted ||
+        player->extremeGear == ExtremeGear::Archangel ||
+        player->extremeGear == ExtremeGear::Challenger ||
+        player->extremeGear == ExtremeGear::Executor ||
+        player->extremeGear == ExtremeGear::ShootingStar ||
+        player->extremeGear == ExtremeGear::WindStar ||
+        player->extremeGear == ExtremeGear::RoadStar ||
         exLoads == EXLoad::HyperSonic) {
 		specialFlags |= SpecialFlags::ringGear;
 	}

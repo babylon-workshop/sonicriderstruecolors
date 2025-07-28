@@ -35,6 +35,7 @@ set(WARNING_FLAGS
 		-Wuseless-cast  # Warn about useless casts.
 		-Wpadded # Warn when padding is required to align structure members.
 		-Wdouble-promotion
+		-w
 
 		-Wno-unknown-pragmas # Disables warning about unkown pragmas since both clion and clang-tidy use their own
 		) # May need to add or remove some warnings from this list depending on if they actually apply to our system or not
@@ -203,6 +204,7 @@ set(DOL_SOURCES     # main
 		src/gears/airship.cpp
 		src/gears/greed.cpp
 		src/gears/gshot.cpp
+		src/gears/wanted.cpp
 ) # main
 
 set(STANDALONE_HEADERS # This is only here to make sure that headers actually include the things it needs, by "compiling" them standalone.

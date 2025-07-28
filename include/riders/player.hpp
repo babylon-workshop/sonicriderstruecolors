@@ -1326,6 +1326,8 @@ struct Player {
 				return 200;
 			case Greed:
 				return 200;
+			case ExtremeGear::Wanted:
+				return 125;
 			default:
 				break;
 		}
