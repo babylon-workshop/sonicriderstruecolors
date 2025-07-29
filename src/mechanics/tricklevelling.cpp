@@ -25,7 +25,8 @@ void Player_TrickLevelling(Player &player) {
 
     if (!(player.extremeGear == ExtremeGear::ShootingStar ||
         player.extremeGear == ExtremeGear::WindStar ||
-        player.extremeGear == ExtremeGear::RoadStar
+        player.extremeGear == ExtremeGear::RoadStar ||
+        player.extremeGear == ExtremeGear::Shinobi
     )) {
         return;
     }
@@ -43,6 +44,9 @@ void Player_TrickLevelling(Player &player) {
             break;
         case ShootingStar:
             Tricks4Level = {10, 20};
+            break;
+        case Shinobi:
+            Tricks4Level = {15, 30};
             break;
         default:
             break;
@@ -81,6 +85,11 @@ void Player_TrickLevelling(Player &player) {
                 } else {
                     TrLInfo->trickAccumulator -= 10;
                 }
+            }
+
+            // Shinobi: Extra Landing Speed
+            if (player.extremeGear == ExtremeGear::Shinobi) {
+                player.speed += pSpeed(player.rings / 2);
             }
 
             // Update the player level now that we have the new amount of tricks

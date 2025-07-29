@@ -786,7 +786,8 @@ void DebugMenuHandler_EnableAllGears() {
     const bool allGearsActive = DebugMenu_CheckOption(DebugMenuOptions::EnableAllGears);
     if (allGearsActive) {
         for (int currentGear = 0; currentGear < ExtremeGear::TotalGearAmount; currentGear++) {
-            if (currentGear != ExtremeGear::ChaosEmerald) {
+            if (currentGear != ExtremeGear::ChaosEmerald &&
+                currentGear != ExtremeGear::Shinobi) {
                 Gears[currentGear].useFlags = 0xFFFFFFFF;
             }
         }

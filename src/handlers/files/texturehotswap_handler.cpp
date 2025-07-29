@@ -62,8 +62,9 @@ ASMUsed void* TextureHotswapHandler(Player *player, void* gvrTexture, u32 textur
         case Character::Cream: {
             switch (textureID) {
                 case 1:
-                    if (player->extremeGear >= ExtremeGear::Darkness &&
-                        player->extremeGear < ExtremeGear::GunGear) {
+                    if ((player->extremeGear >= ExtremeGear::Darkness &&
+                        player->extremeGear < ExtremeGear::GunGear) ||
+                        player->extremeGear == ExtremeGear::Shinobi) {
                         customTexture = gvrTexture;
                         break;
                     }
@@ -91,8 +92,9 @@ ASMUsed void* TextureHotswapHandler(Player *player, void* gvrTexture, u32 textur
         case Character::Tikal: {
             switch (textureID) {
                 case 1:
-                    if (player->extremeGear >= ExtremeGear::Darkness &&
-                        player->extremeGear < ExtremeGear::GunGear) {
+                    if ((player->extremeGear >= ExtremeGear::Darkness &&
+                        player->extremeGear < ExtremeGear::GunGear) ||
+                        player->extremeGear == ExtremeGear::Shinobi) {
                         customTexture = gvrTexture;
                         break;
                     }
@@ -115,16 +117,18 @@ ASMUsed void* TextureHotswapHandler(Player *player, void* gvrTexture, u32 textur
         case Character::Jet: {
             switch (textureID) {
                 case 1:
-                    if (player->extremeGear >= ExtremeGear::Darkness &&
-                        player->extremeGear < ExtremeGear::GunGear) {
+                    if ((player->extremeGear >= ExtremeGear::Darkness &&
+                        player->extremeGear < ExtremeGear::GunGear) ||
+                        player->extremeGear == ExtremeGear::Shinobi) {
                         customTexture = gvrTexture;
                         break;
                     }
                     customTexture = (u8*)customTexture;
                     break;
                 case 2:
-                    if (player->extremeGear >= ExtremeGear::Darkness &&
-                        player->extremeGear < ExtremeGear::GunGear) {
+                    if ((player->extremeGear >= ExtremeGear::Darkness &&
+                        player->extremeGear < ExtremeGear::GunGear) ||
+                        player->extremeGear == ExtremeGear::Shinobi) {
                         customTexture = (u8*)customTexture;
                         break;
                     }
@@ -143,16 +147,18 @@ ASMUsed void* TextureHotswapHandler(Player *player, void* gvrTexture, u32 textur
         case Character::Storm: {
             switch (textureID) {
                 case 1:
-                    if (player->extremeGear >= ExtremeGear::Darkness &&
-                        player->extremeGear < ExtremeGear::GunGear) {
+                    if ((player->extremeGear >= ExtremeGear::Darkness &&
+                        player->extremeGear < ExtremeGear::GunGear) ||
+                        player->extremeGear == ExtremeGear::Shinobi) {
                         customTexture = gvrTexture;
                         break;
                     }
                     customTexture = (u8*)customTexture + 0x2020;
                     break;
                 case 2:
-                    if (player->extremeGear >= ExtremeGear::Darkness &&
-                        player->extremeGear < ExtremeGear::GunGear) {
+                    if ((player->extremeGear >= ExtremeGear::Darkness &&
+                        player->extremeGear < ExtremeGear::GunGear) ||
+                        player->extremeGear == ExtremeGear::Shinobi) {
                         customTexture = (u8*)customTexture + 0x2020;
                         break;
                     }
@@ -219,8 +225,9 @@ ASMUsed void* TextureHotswapHandler(Player *player, void* gvrTexture, u32 textur
         case Character::Emerl: {
             switch (textureID) {
                 case 1:
-                    if (player->extremeGear >= ExtremeGear::Darkness &&
-                        player->extremeGear < ExtremeGear::GunGear) {
+                    if ((player->extremeGear >= ExtremeGear::Darkness &&
+                        player->extremeGear < ExtremeGear::GunGear) ||
+                        player->extremeGear == ExtremeGear::Shinobi) {
                         customTexture = gvrTexture;
                         break;
                     }
@@ -241,24 +248,27 @@ ASMUsed void* TextureHotswapHandler(Player *player, void* gvrTexture, u32 textur
         case Character::Chaos: {
             switch (textureID) {
                 case 1:
-                    if (player->extremeGear >= ExtremeGear::Darkness &&
-                        player->extremeGear < ExtremeGear::GunGear) {
+                    if ((player->extremeGear >= ExtremeGear::Darkness &&
+                        player->extremeGear < ExtremeGear::GunGear) ||
+                        player->extremeGear == ExtremeGear::Shinobi) {
                         customTexture = gvrTexture;
                         break;
                     }
                     customTexture = (u8*)customTexture + 0x2020;
                     break;
                 case 2:
-                    if (player->extremeGear >= ExtremeGear::Darkness &&
-                        player->extremeGear < ExtremeGear::GunGear) {
+                    if ((player->extremeGear >= ExtremeGear::Darkness &&
+                        player->extremeGear < ExtremeGear::GunGear) ||
+                        player->extremeGear == ExtremeGear::Shinobi) {
                         customTexture = (u8*)customTexture + 0x2020;
                         break;
                     }
                     customTexture = (u8*)customTexture;
                     break;
                 case 3:
-                    if (player->extremeGear >= ExtremeGear::Darkness &&
-                        player->extremeGear < ExtremeGear::GunGear) {
+                    if ((player->extremeGear >= ExtremeGear::Darkness &&
+                        player->extremeGear < ExtremeGear::GunGear) ||
+                        player->extremeGear == ExtremeGear::Shinobi) {
                         customTexture = (u8*)customTexture;
                         break;
                     }

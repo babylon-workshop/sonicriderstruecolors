@@ -229,6 +229,7 @@ ASMUsed f32 Player_DecelModifier(Player &player) {
 		using namespace ExtremeGear;
 		case Legend:
 		case AirBroom:
+		case Shinobi:
 			DecelModifier += 0.025f;
 			break;
 		case LightBoard:

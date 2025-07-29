@@ -27,7 +27,7 @@ constexpr std::array<u8, customBikeAmount> newBikeIDs = { // added bikes
     };
 
 constexpr std::array<u8, customSkateAmount> newSkateIDs = { // added skates
-    0xFF,
+    ExtremeGear::Shinobi,
     };
 
 /**
@@ -87,8 +87,7 @@ ASMUsed u8 CustomGearSelect_Forward(u8 currentGearID) {
             newGearID = newBikeIDs[0];
             break;
         case ExtremeGear::Cannonball: // Last OG skate.
-            // newGearID = newSkateIDs[0];
-            newGearID = ExtremeGear::Default; // SYB: Delete this and uncomment the line above once you add a custom skate!
+            newGearID = newSkateIDs[0];
             break;
         default:
             newGearID = currentGearID + 1;
@@ -154,8 +153,7 @@ ASMUsed u8 CustomGearSelect_Backward(u8 currentGearID) {
             newGearID = newBoardIDs[customBoardAmount - 1];
             break;
         case ExtremeGear::Default: // First OG board.
-            // newGearID = newSkateIDs[customSkateAmount - 1];
-            newGearID = ExtremeGear::Cannonball; // SYB: Delete this and uncomment the line above once you add a custom bike!
+            newGearID = newSkateIDs[customSkateAmount - 1];
             break;
         default:
             newGearID = currentGearID - 1;

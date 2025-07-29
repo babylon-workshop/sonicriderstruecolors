@@ -20,7 +20,7 @@ namespace ExtremeGear{
 		CoverP, HangOn, SuperHangOn, Darkness, Grinder, AdvantageS, AdvantageF, AdvantageP, Cannonball,
 
 		GunGear, Airship, Greed, GShot, Wanted, ShootingStar, WindStar, RoadStar, Archangel, ReserveTank, WarpDrive,
-		Challenger, GunBike, Executor, SkillLink, 
+		Challenger, GunBike, Executor, SkillLink, Shinobi,
 
 		TotalGearAmount,
 		Invalid = 0xFF

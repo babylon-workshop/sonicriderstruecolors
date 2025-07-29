@@ -19,6 +19,7 @@ ASMUsed SpecialFlags Player_NonLevelupGears(Player *player, SpecialFlags special
         player->extremeGear == ExtremeGear::WindStar ||
         player->extremeGear == ExtremeGear::RoadStar ||
         player->extremeGear == ExtremeGear::ReserveTank ||
+        player->extremeGear == ExtremeGear::Shinobi ||
         exLoads == EXLoad::HyperSonic) {
 		specialFlags |= SpecialFlags::ringGear;
 	}

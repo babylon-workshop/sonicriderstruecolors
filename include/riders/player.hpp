@@ -1328,6 +1328,8 @@ struct Player {
 				return 200;
 			case ExtremeGear::Wanted:
 				return 125;
+			case Shinobi:
+				return 200;
 			default:
 				break;
 		}
