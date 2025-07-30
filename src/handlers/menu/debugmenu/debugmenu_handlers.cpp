@@ -784,7 +784,7 @@ ASMUsed bool DebugMenuHandler_AddAFriend() {
 
 void DebugMenuHandler_EnableAllGears() {
     const bool allGearsActive = DebugMenu_CheckOption(DebugMenuOptions::EnableAllGears);
-    if (allGearsActive) {
+    if (allGearsActive && Gears[ExtremeGear::WarpDrive].useFlags != 0xFFFFFFFF) {
         for (int currentGear = 0; currentGear < ExtremeGear::TotalGearAmount; currentGear++) {
             if (currentGear != ExtremeGear::ChaosEmerald &&
                 currentGear != ExtremeGear::Shinobi) {

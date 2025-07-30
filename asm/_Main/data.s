@@ -27516,14 +27516,14 @@ Gears:
     .4byte 0x000061A8 # level 1 boost cost
     .4byte 0x000061A8 # level 1 tornado cost
     .4byte 0x3E6D097B # level 1 speed gained from a drift dash
-    .4byte 0x3f612f68 # level 1 boost speed
+    .4byte 0x3f8e38e4 # level 1 boost speed
     .4byte 0x000249F0 # level 2 max air
     .4byte 0x00000010 # level 2 passive air drain
     .4byte 0x000000FA # level 2 drift air cost
     .4byte 0x00007530 # level 2 boost cost
     .4byte 0x00007530 # level 2 tornado cost
     .4byte 0x3EBDA12F # level 2 speed gained from a drift dash
-    .4byte 0x3f825ed1 # level 2 boost speed
+    .4byte 0x3f8e38e4 # level 2 boost speed
     .4byte 0x00030D40 # level 3 max air
     .4byte 0x00000010 # level 3 passive air drain
     .4byte 0x0000014D # level 3 drift air cost

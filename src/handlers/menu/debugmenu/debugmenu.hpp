@@ -36,7 +36,7 @@ namespace DebugMenuOptions {
     };
     constexpr auto PAGE1OPTIONCOUNT = 18;
     constexpr auto DefaultPage1Options =
-            1 << MagneticImpulse | 1 << Autopilot | 1 << TornadoIgnore | 1 << TimerActivity_ActiveInSingleplayer | 1 << ClutchAsAirGauge | 1 << AttackInRun;
+            1 << TimerActivity_ActiveInSingleplayer | 1 << ClutchAsAirGauge | 1 << AttackInRun;
 } // namespace DebugMenuOptions
 
 namespace DebugMenuDef {

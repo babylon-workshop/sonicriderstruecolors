@@ -241,7 +241,7 @@ constexpr std::array<u16, 7> ExtraDefaultGearTextID = {
         522, // variable character, add new characters' IDs before this
 };
 
-constexpr std::array<u16, 15> NewGearTextID = {
+constexpr std::array<u16, 16> NewGearTextID = {
         767, // G.U.N. Gear
         778, // Airship
         791, // Greed
@@ -257,6 +257,7 @@ constexpr std::array<u16, 15> NewGearTextID = {
         789, // G.U.N. Bike
         790, // Executor
         792, // Skill Link
+        786, // Shinobi
 };
 
 std::array<s16, MaxControllerCount> gCSSInformationTextYOffsets;
