@@ -13,7 +13,7 @@ Sonic Riders True Colors adds the following content to SRTE:
 - A more curated selection of music and Extreme Gears. Most unmodified SRTE Gears are not available by default, but can be re-enabled by enabling the new "Enable All Gears" Debug feature.
 - The ability to play with one CPU in Free Race, for various purposes. This can be enabled by selecting the "Add A Friend" Debug feature.
 
-## Gears
+## Extreme Gears
 
 True Colors adds 15 new fully functional Extreme Gears, with 14 of them having unique stats and abilities.
 
@@ -64,6 +64,48 @@ A Trick Levelling Gear, which means it levels up based on the amount of Tricks y
 <img src="assets/icons/road star.png" width="200">
 
 A Trick Levelling Gear, which means it levels up based on the amount of Tricks you have done. Level 2 requires 12 total Tricks, Level 3 requires 24.
+
+### Angel/Devil
+
+<img src="assets/icons/angel devil.png" width="200">
+
+TBA
+
+### Challenger
+
+<img src="assets/icons/challenger.png" width="200">
+
+TBA
+
+### Executor
+
+<img src="assets/icons/executor.png" width="200">
+
+TBA
+
+### Skill Link
+
+<img src="assets/icons/skill link.png" width="200">
+
+TBA
+
+### G.U.N. Bike
+
+<img src="assets/icons/gunbike.png" width="200">
+
+TBA
+
+### Reserve Tank
+
+<img src="assets/icons/reserve tank.png" width="200">
+
+TBA
+
+### Shinobi
+
+<img src="assets/icons/shinobi.png" width="200">
+
+A Trick Levelling Gear, which means it levels up based on the amount of Tricks you have done. Level 2 requires 15 total Tricks, Level 3 requires 30.
 
 ## Building
 
