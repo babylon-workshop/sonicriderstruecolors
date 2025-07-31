@@ -13,6 +13,7 @@ Sonic Riders True Colors adds the following content to SRTE:
 - A more curated selection of music and Extreme Gears. Most unmodified SRTE Gears are not available by default, but can be re-enabled by enabling the new "Enable All Gears" Debug feature.
 - The ability to play with one CPU in Free Race, for various purposes. This can be enabled by selecting the "Add A Friend" Debug feature.
 - Controversial mechanics such as Magnetic Impulse, Tornado Ignore and Autopilot are disabled by default.
+- Removal of RNG Item Boxes in Free/Tournament Race. RNG Boxes have a 50/50 chance of generating as either 10 Rings or 30 Air.
 
 ## Extreme Gears
 
