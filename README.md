@@ -1,5 +1,3 @@
-# Sonic Riders True Colors
-
 ![SONIC RIDERS TRUE COLORS](logo.png)
 
 This repository contains all code used for the "Sonic Riders True Colors" project, a modification of Sonic Riders Tournament Edition (SRTE).
@@ -14,6 +12,16 @@ Sonic Riders True Colors adds the following content to SRTE:
 - While hovering over Default Gear, you can press START to cycle through different Default Gears.
 - A more curated selection of music and Extreme Gears. Most unmodified SRTE Gears are not available by default, but can be re-enabled by enabling the new "Enable All Gears" Debug feature.
 - The ability to play with one CPU in Free Race, for various purposes. This can be enabled by selecting the "Add A Friend" Debug feature.
+
+## Gears
+
+True Colors adds 15 new fully functional Extreme Gears, with 14 of them having unique stats and abilities.
+
+### Airship
+
+![SONIC RIDERS TRUE COLORS](assets/icons/airship.png)
+
+Airship has subpar stats compared to Default Gear, with -10 Boost Speed on all levels while being more Air Efficient. However, it has the ability to "Air Dash" by pressing the X Button while in the Air.
 
 ## Building
 
