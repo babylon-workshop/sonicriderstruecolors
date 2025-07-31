@@ -19,12 +19,51 @@ True Colors adds 15 new fully functional Extreme Gears, with 14 of them having u
 
 ### Airship
 
-![SONIC RIDERS TRUE COLORS](assets/icons/airship.png)
-
-<img src="assets/icons/airship.png" width="200" height="100">
-
+<img src="assets/icons/airship.png" width="200">
 
 Airship has subpar stats compared to Default Gear, with -10 Boost Speed on all levels while being more Air Efficient. However, it has the ability to "Air Dash" by pressing the X Button while in the Air.
+
+### Greed
+
+<img src="assets/icons/greed.png" width="200">
+
+Greed's Level is equal to the Lap it's on (maxing out at 3) and does not get any additional stats from Levelling up, but instead gains Boost Speed based on the amount of Rings it holds (Boost Speed = Rings / 2). In addition, Greed has a Ring cap of 200, but loses Rings overtime when above 100. In essence, this means the Gear caps out at 250 Boost Speed normally, but can temporarily go above 250.
+
+### G-Shot
+
+<img src="assets/icons/g shot.png" width="200">
+
+G-Shot has average stats with poor Air Efficiency, but stores the amount of time charging jump as a resource for Boost Control. This allows you to extend your boost while holding the Boost button, and your speed ramps up overtime as well, up to a maximum of 350.
+
+Unfortunately, there is no HUD element to show how much jump charge has been stored for Boost Control.
+
+### Wanted
+
+<img src="assets/icons/wanted.png" width="200">
+
+Designed by Headless Soldier, this Gear goes up to Level 5 and gives different buffs depending on your position in the race.
+
+When in 1st, Wanted grants passive Ring Gain. When in 2nd or lower, Wanted grants additional Boost Speed.
+
+### Shooting Star
+
+<img src="assets/icons/shooting star.png" width="200">
+
+A Trick Levelling Gear, which means it levels up based on the amount of Tricks you have done. Level 2 requires 10 total Tricks, Level 3 requires 20.
+
+When above Level 1, Shooting Star grants an additional +60 Landing Speed when landing with an S Rank or lower, at the cost of 20 Rings. If the you do not have 20 Rings, it subtracts 10 Tricks from your total instead, essentially levelling you down.
+
+### Wind Star
+
+<img src="assets/icons/wind star.png" width="200">
+
+A Trick Levelling Gear, which means it levels up based on the amount of Tricks you have done. Level 2 requires 12 total Tricks, Level 3 requires 24.
+
+### Road Star
+
+<img src="assets/icons/road star.png" width="200">
+
+A Trick Levelling Gear, which means it levels up based on the amount of Tricks you have done. Level 2 requires 12 total Tricks, Level 3 requires 24.
 
 ## Building
 
