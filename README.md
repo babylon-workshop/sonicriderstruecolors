@@ -19,7 +19,10 @@ True Colors adds 15 new fully functional Extreme Gears, with 14 of them having u
 
 ### Airship
 
-![SONIC RIDERS TRUE COLORS](src="assets/icons/airship.png" width="200")
+![SONIC RIDERS TRUE COLORS](assets/icons/airship.png)
+
+<img src="assets/icons/airship.png" width="200" height="100">
+
 
 Airship has subpar stats compared to Default Gear, with -10 Boost Speed on all levels while being more Air Efficient. However, it has the ability to "Air Dash" by pressing the X Button while in the Air.
 
