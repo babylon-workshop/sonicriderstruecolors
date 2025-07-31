@@ -12,6 +12,7 @@ Sonic Riders True Colors adds the following content to SRTE:
 - While hovering over Default Gear, you can press START to cycle through different Default Gears.
 - A more curated selection of music and Extreme Gears. Most unmodified SRTE Gears are not available by default, but can be re-enabled by enabling the new "Enable All Gears" Debug feature.
 - The ability to play with one CPU in Free Race, for various purposes. This can be enabled by selecting the "Add A Friend" Debug feature.
+- Controversial mechanics such as Magnetic Impulse, Tornado Ignore and Autopilot are disabled by default.
 
 ## Extreme Gears
 
@@ -103,7 +104,7 @@ Skill Link grants you a speed boost upon collecting the exact same type of item 
 
 <img src="assets/icons/gunbike.png" width="200">
 
-The G.U.N. Bike is statistically identical to Default Gear
+The G.U.N. Bike is statistically identical to Default Gear.
 
 ### Reserve Tank
 
@@ -116,6 +117,8 @@ Reserve Tank starts at Level 4, but barely refills any Air from Tricks and canno
 <img src="assets/icons/shinobi.png" width="200">
 
 A Trick Levelling Gear, which means it levels up based on the amount of Tricks you have done. Level 2 requires 15 total Tricks, Level 3 requires 30.
+
+Shinobi always boosts at 240. It also grants you addition landing speed after a Trick depending on the amount of Rings you are holding (Landing Speed = Rings / 2). Your Ring Cap is also increased to 200.
 
 ## Credits
 
