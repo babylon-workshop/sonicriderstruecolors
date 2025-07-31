@@ -783,12 +783,23 @@ ASMUsed bool DebugMenuHandler_AddAFriend() {
 }
 
 void DebugMenuHandler_EnableAllGears() {
+    // We use 0x7FFFFFFF instead of 0xFFFFFFFF as a marker of an "unlocked" Gear so we do not need to
+    // keep a list.
+    // 0x7FFFFFFF only marks an inaccessible character slot as locked, so it doesn't have any functional
+    // changes from 0xFFFFFFFF for our purposes.
     const bool allGearsActive = DebugMenu_CheckOption(DebugMenuOptions::EnableAllGears);
-    if (allGearsActive && Gears[ExtremeGear::WarpDrive].useFlags != 0xFFFFFFFF) {
+    if (allGearsActive && Gears[ExtremeGear::WarpDrive].useFlags != 0x7FFFFFFF) {
         for (int currentGear = 0; currentGear < ExtremeGear::TotalGearAmount; currentGear++) {
             if (currentGear != ExtremeGear::ChaosEmerald &&
-                currentGear != ExtremeGear::Shinobi) {
-                Gears[currentGear].useFlags = 0xFFFFFFFF;
+                Gears[currentGear].useFlags == 0x00000000) {
+                Gears[currentGear].useFlags = 0x7FFFFFFF;
+            }
+        }
+    }
+    else if (!allGearsActive && Gears[ExtremeGear::WarpDrive].useFlags != 0x00000000) {
+        for (int currentGear = 0; currentGear < ExtremeGear::TotalGearAmount; currentGear++) {
+            if (Gears[currentGear].useFlags == 0x7FFFFFFF) {
+                Gears[currentGear].useFlags = 0x00000000;
             }
         }
     }

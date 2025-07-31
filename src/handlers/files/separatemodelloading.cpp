@@ -217,6 +217,9 @@ std::bitset<MaxPlayerCount> IsSeparateBoardModelActive;
         case ExtremeGear::SkillLink:
             gearID = ExtremeGear::Fastest;
             break;
+        case ExtremeGear::Shinobi:
+            gearID = ExtremeGear::MagicCarpet;
+            break;
         default:
             break;
     }

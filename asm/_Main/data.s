@@ -26756,7 +26756,7 @@ Gears:
     .4byte 0x3DA3D70A # Trail scale during tricks?
     .4byte 0x00280100
     .4byte 0x02020000 # Exhaust mode (?) followed by amount of trails during tricks
-    .4byte 0xFFFFFFFF # Reserve Tank
+    .4byte 0xFFFE37FF # Reserve Tank
     .byte 0x02 # gear type
     .byte 0x32 # model id
     .2byte 0x0000 # ring cost in gear shop
@@ -27119,7 +27119,7 @@ Gears:
     .4byte 0x3DA3D70A # Trail scale during tricks?
     .4byte 0x00280100
     .4byte 0x02030000 # Exhaust mode (?) followed by amount of trails during tricks
-    .4byte 0xFFFFFFFF # G.U.N. Bike
+    .4byte 0xFFFE37FF # G.U.N. Bike
     .byte 0x02 # gear type
     .byte 0x33 # model id
     .2byte 0x0000 # ring cost in gear shop
@@ -27482,7 +27482,7 @@ Gears:
     .4byte 0x3DA3D70A # Trail scale during tricks?
     .4byte 0x00280100
     .4byte 0x02010000 # Exhaust mode (?) followed by amount of trails during tricks
-    .4byte 0x0000067B # Shinobi
+    .4byte 0x000006FB # Shinobi
     .byte 0x01 # gear type
     .byte 0x4C # model id
     .2byte 0x0000 # ring cost in gear shop
