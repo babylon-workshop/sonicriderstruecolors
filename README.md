@@ -59,53 +59,83 @@ When above Level 1, Shooting Star grants an additional +60 Landing Speed when la
 
 A Trick Levelling Gear, which means it levels up based on the amount of Tricks you have done. Level 2 requires 12 total Tricks, Level 3 requires 24.
 
+Wind Star can activate its special "Tailwind" mode by placing down a tornado. While Tailwind is active, you gain Passive Air Gain and +20 Boost Speed in exchange for Passive Ring Drain. Tailwind deactivates once Rings reach 0 or you enter a QTE.
+
 ### Road Star
 
 <img src="assets/icons/road star.png" width="200">
 
 A Trick Levelling Gear, which means it levels up based on the amount of Tricks you have done. Level 2 requires 12 total Tricks, Level 3 requires 24.
 
+While using Road Star, your Boost Chain Multiplier (BCM) scales with the amount of Rings you are holding, at a maximum of +15%.
+
 ### Angel/Devil
 
 <img src="assets/icons/angel devil.png" width="200">
 
-TBA
+Angel/Devil starts out at Level 2 with poor stats, but can activate either Angel Mode or Devil Mode by pressing D-Pad Up. Both modes have Passive Ring Drain, and can be manually deactivated by pressing D-Pad Up again.
+
+While in Angel Mode (Level 1), you boost at 255. If you attack someone in this Mode or get attacked yourself, you are forced back to Level 2 and lose all your Rings.
+
+While in Devil Mode (Level 3), you boost at 245 and have enhanced BCM. If your speed falls below 150, you are foced back to Level 2 and lose all your Rings. If you hit someone while in this Mode, you gain 30 Rings.
 
 ### Challenger
 
 <img src="assets/icons/challenger.png" width="200">
 
-TBA
+This Gear is meant to be a minigame rather than a competitive Gear. Challenger randomises your Type and Level every 25 seconds, forcing on-the-fly routing and Air management. You can press D-Pad Up to refill your Air Gauge at the cost of 25 Rings.
+
+Challenger starts out at Level 1 with your original Type. What Type you are can be inferred from the Exhaust Trail and sound effects.
 
 ### Executor
 
 <img src="assets/icons/executor.png" width="200">
 
-TBA
+Executor rewards you for falling off the stage. When dying, you gain 30 Rings, Level 3 and an incredibly high Boost Speed of 275, "Redeploy Mode". Rings drain passively while in this Mode, and you revert to Level 1 once your Rings reach 0. You also gain an immediate burst of speed upon respawning.
 
 ### Skill Link
 
 <img src="assets/icons/skill link.png" width="200">
 
-TBA
+Skill Link grants you a speed boost upon collecting the exact same type of item twice. The items you pick up are also upgraded (i.e. 10 Rings becomes 20 Rings) at the cost of losing 10 Rings whenever you collect an item box.
 
 ### G.U.N. Bike
 
 <img src="assets/icons/gunbike.png" width="200">
 
-TBA
+The G.U.N. Bike is statistically identical to Default Gear
 
 ### Reserve Tank
 
 <img src="assets/icons/reserve tank.png" width="200">
 
-TBA
+Reserve Tank starts at Level 4, but barely refills any Air from Tricks and cannot enter Pit Stops. At the cost of 1 Level and 25 Rings, you can refill your Air Gauge by pressing D-Pad Up. You can boost for free while the Air Gauge is refilling. Reserve Tank always boosts at 240.
 
 ### Shinobi
 
 <img src="assets/icons/shinobi.png" width="200">
 
 A Trick Levelling Gear, which means it levels up based on the amount of Tricks you have done. Level 2 requires 15 total Tricks, Level 3 requires 30.
+
+## Credits
+
+Base Sonic Riders content belongs to SEGA/Sonic Team.
+
+SRTE content belongs to Riders Boulevard (the SRTE Team).
+
+Coding/Design/Textures/Porting: Sybille Sirky
+
+Custom Remixes by Sybille
+
+"Wanted" Gear Design: Headless Soldier
+
+Emerl Skin Textures: TitanSparrow
+
+## Special Thanks
+
+The following people have been instrumental for this project, either by testing, consulting or simple motivation.
+
+E-10000F, Exortile, Headless Soldier, Joe a tron, KEVron, KingOfAllBS, NullPTr, Sir Genexis, Supp Ins, TitanSparrow, Trouble, Visualiser_
 
 ## Building
 
