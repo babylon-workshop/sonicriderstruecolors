@@ -31,6 +31,8 @@ Airship has subpar stats compared to Default Gear, with -10 Boost Speed on all l
 
 Greed's Level is equal to the Lap it's on (maxing out at 3) and does not get any additional stats from Levelling up, but instead gains Boost Speed based on the amount of Rings it holds (Boost Speed = Rings / 2). In addition, Greed has a Ring cap of 200, but loses Rings overtime when above 100. In essence, this means the Gear caps out at 250 Boost Speed normally, but can temporarily go above 250.
 
+Greed also gains Rings from Tricks.
+
 ### G-Shot
 
 <img src="assets/icons/g shot.png" width="200">

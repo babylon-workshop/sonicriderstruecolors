@@ -21,7 +21,7 @@ void Player_Airship(Player &player) {
                 player.speed += pSpeed(150);
                 player.verticalSpeed -= 0.2;
                 // player.verticalSpeed += 0.5; // Air Dash height bonus. Legacy!
-                player.currentAir -= player.gearStats[player.level].boostCost * 2;
+                player.currentAir -= player.gearStats[player.level].boostCost * 1.5;
                 AirshipInfo->airdashCooldown = 180;
                 if(!player.aiControl) PlayAudioFromDAT(Sound::ComposeSound(Sound::ID::IDKSFX, 0x3B)); //Dash panel SFX
             }
