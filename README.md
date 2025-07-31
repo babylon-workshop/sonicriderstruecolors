@@ -123,6 +123,16 @@ A Trick Levelling Gear, which means it levels up based on the amount of Tricks y
 
 Shinobi always boosts at 240. It also grants you addition landing speed after a Trick depending on the amount of Rings you are holding (Landing Speed = Rings / 2). Your Ring Cap is also increased to 200.
 
+### Warp Drive
+
+<img src="assets/icons/warp drive.png" width="200">
+
+This infamous Gear concept is not selectable by default due to its buggy nature, but it can be enabled through the "Enable All Gears" Debug feature.
+
+Warp Drive cannot enter turbulence, but allows you to swap places with your opponent if you're in their slipstream. When inside an opponent's slipstream (visible through your exhaust trail becoming orange), you can press D-Pad Up to lock in your target. After 3 seconds, if you and your target are in a valid state to teleport, you and your opponent will swap places at the cost of Air to you. This teleportation is subject to many bugs and may not always work correctly, but the mechanic has proven hilarious enough to warrant a port to this version of True Colors.
+
+A target is only valid for teleportation if they are in the following states: Grounded, Falling, Flying or Jumping.
+
 ## Credits
 
 Base Sonic Riders content belongs to SEGA/Sonic Team.
