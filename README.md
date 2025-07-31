@@ -1,6 +1,9 @@
 # Sonic Riders True Colors
 
+![SONIC RIDERS TRUE COLORS](logo.png)
+
 This repository contains all code used for the "Sonic Riders True Colors" project, a modification of Sonic Riders Tournament Edition (SRTE).
+
 Technical information is identical to SRTE, and thus it is recommended to check that repository for more information.
 
 ## Content
@@ -8,7 +11,9 @@ Technical information is identical to SRTE, and thus it is recommended to check 
 Sonic Riders True Colors adds the following content to SRTE:
 - 15 new playable Extreme Gears.
 - A fully functional skin system, adding 2 skins per character (accessible by holding X/Y when selecting your Extreme Gear).
-- While on Default, you can press START to cycle through different Default Gears.
+- While hovering over Default Gear, you can press START to cycle through different Default Gears.
+- A more curated selection of music and Extreme Gears. Most unmodified SRTE Gears are not available by default, but can be re-enabled by enabling the new "Enable All Gears" Debug feature.
+- The ability to play with one CPU in Free Race, for various purposes. This can be enabled by selecting the "Add A Friend" Debug feature.
 
 ## Building
 
