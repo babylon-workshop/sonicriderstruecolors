@@ -1,14 +1,18 @@
-# Sonic Riders Tournament Edition
+# Sonic Riders True Colors
 
-This repo contains a WIP decompilation of Sonic Riders Tournament Edition, which is based off of Sonic Riders (USA).
+This repository contains all code used for the "Sonic Riders True Colors" project, a modification of Sonic Riders Tournament Edition (SRTE).
+Technical information is identical to SRTE, and thus it is recommended to check that repository for more information.
 
-It builds the following DOL:
+## Content
 
-main.dol: `sha1: 1be22a929b4d51a11dcf1bee34d45600b561ee6c`
-
-**NOTE:** The DOL is currently *shiftable*. This means you can add data anywhere you want, without it breaking the entire game.
+Sonic Riders True Colors adds the following content to SRTE:
+- 15 new playable Extreme Gears.
+- A fully functional skin system, adding 2 skins per character (accessible by holding X/Y when selecting your Extreme Gear).
+- While on Default, you can press START to cycle through different Default Gears.
 
 ## Building
+
+Building instructions are copied from the SRTE repository, as they are identical.
 
 ### Required packages
 
@@ -72,7 +76,3 @@ $DEVKITPRO/devkitPPC/bin/powerpc-eabi-cmake -DCUSTOM_LIBOGC_PATH=/path/to/libogc
 ```
 
 13. Run `ninja` in the same directory to build the DOL file (you can also run `ninja -j$(nproc --all)` for faster build times). The `main.dol` file will be built and compiled into the same build folder you created.
-
-## Contributions
-
-Contributions and PRs are welcome.
