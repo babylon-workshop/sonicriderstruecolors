@@ -371932,6 +371932,7 @@ lbl_0013FAE0:
 lbl_0013FB08:
 /* 0013FB08 988300BA */ stb r4, 0xba(r3)
 /* 0013FB0C 988300BF */ stb r4, 0xbf(r3)
+b ResetPlayerSkin
 /* 0013FB10 4E800020 */ blr 
 .global lbl_0013FB14
 lbl_0013FB14:

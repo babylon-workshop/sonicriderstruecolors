@@ -3,6 +3,12 @@
 
 std::array<u8, MaxPlayerCount> PlayerSkinIDs;
 
+ASMUsed void ResetPlayerSkin(Player *player) {
+    u8* playerSkinID = &PlayerSkinIDs[player->index];
+
+    *playerSkinID = 0;
+}
+
 ASMUsed void SetPlayerSkin(Player *player) {
     return;
     u8* playerSkinID = &PlayerSkinIDs[player->index];
@@ -15,15 +21,15 @@ ASMUsed void SetPlayerSkin(Player *player) {
         return;
     }
 
-    if(player->input->holdFaceButtons.hasAny(Buttons::X)) {
-        *playerSkinID = 1;
-    }
-    else if(player->input->holdFaceButtons.hasAny(Buttons::Y)) {
-        *playerSkinID = 2;
-    }
-    else {
-        *playerSkinID = 0;
-    }
+    // if(player->input->holdFaceButtons.hasAny(Buttons::X)) {
+    //     *playerSkinID = 1;
+    // }
+    // else if(player->input->holdFaceButtons.hasAny(Buttons::Y)) {
+    //     *playerSkinID = 2;
+    // }
+    // else {
+    //     *playerSkinID = 0;
+    // }
 }
 
 ASMUsed void NextPlayerSkin(GraphicalObject *object) {
