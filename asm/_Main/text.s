@@ -373316,6 +373316,8 @@ lbl_00140C64:
 /* 00140C70 3CC00001 */ lis r6, 1
 /* 00140C74 4BFB7C65 */ bl HandleSys2dAnimationObject1
 mr r3, r30
+bl NextPlayerSkin
+mr r3, r30
 bl Character_UpdateGraphicalEXLoad
 /* 00140C78 7FC3F378 */ mr r3, r30
 /* 00140C7C 4BFB787D */ bl Sys2d_DrawObject
