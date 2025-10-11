@@ -10,7 +10,6 @@ ASMUsed void ResetPlayerSkin(Player *player) {
 }
 
 ASMUsed void SetPlayerSkin(Player *player) {
-    return;
     u8* playerSkinID = &PlayerSkinIDs[player->index];
     
     if (player->character == Character::E10R ||
